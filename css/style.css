@@ -246,6 +246,10 @@ header div {
 
 /* Connexion */
 
+.connexion{
+    text-align:center;
+}
+
 .oublieMdp{
     color: black;
     text-decoration: none;
