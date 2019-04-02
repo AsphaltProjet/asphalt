@@ -244,7 +244,38 @@ header div {
     height: 50px;
 }
 
+/* Connexion */
 
+.oublieMdp{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    margin-bottom: 1.4em;
+}
+
+.connexionFormulaire div{
+    display: flex;
+    flex-direction: column;
+    align-items: : center;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+.connexionFormulaire input{
+    margin-bottom: 0.4em;
+    margin-top: 1.4em;
+}
+
+a i{
+    margin-left: 0.2em;
+    color: #F56A42;
+}
+
+.boutonConnexion{
+    margin-bottom: 3em;
+    margin-top: 1.5em;
+}
 
 /*Détail trajet - choix trajet*/
 
