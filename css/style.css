@@ -547,3 +547,61 @@ footer a {
 .logoFoot img {
     margin-top: 2.2em
 }
+/*PAGE UTILISATEUR*/
+.sectionUser .fa-user-circle{
+    font-size: 4em;
+    color: #CFCFCF;
+    vertical-align: middle;
+    margin-right: 100px;
+    
+}
+.fenetre:not(.boutonContacter){
+    display: flex;
+    flex-direction: column;
+}
+.fenetre h3{
+}
+.bioUser{
+    font-family: 'Lato';
+    font-size: 1.5em;
+    text-align: center;
+}
+.etoile{
+    font-size: 35px;
+    text-align: center;
+    color: gold;
+}
+/*bulle commentaire*/
+.bulleCom{
+    background-color: #CFCFCF;
+    height: 40px;
+    width: 50em;
+    font-family: 'Lato';
+    font-size: 14px;  
+    padding: 20px 0px 20px 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 5%;
+    top: 0em;
+}
+
+.bulleCom p:first-child{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.bulleCom p:nth-child(2){
+    text-align: right;
+    margin: 5px 0 0 0;
+}
+
+.bulleCom::after{
+    content: "";
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 20px solid #CFCFCF;
+    border-right : 40px solid transparent;
+    margin-right:  1000px;
+}
+
