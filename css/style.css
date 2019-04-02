@@ -33,12 +33,14 @@ h3 {
     margin-top:;
 }
 
+/** Peut être pas utile
 p {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #505050;
     text-align: justify;
 }
+**/
 
 .fenetre {
     background-color: white;
