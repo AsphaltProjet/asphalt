@@ -211,6 +211,41 @@ header div {
     top: 90px;
 }
 
+
+/*Détail trajet - choix trajet*/
+
+.detailTrajet .fenetre {
+    font-family: 'lato';
+}
+
+.localisation{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.detailTrajet .champRempli{
+    border-radius: 10px;
+    border: 0;
+    height: 15px;
+    background-color: #CFCFCF;
+    font-family: 'lato';
+}
+
+.detailTrajet .date{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.detailTrajet .horaires{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+
+
 /*footer*/
 footer {
     height: 8em;
