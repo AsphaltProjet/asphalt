@@ -34,6 +34,10 @@ h3 {
     margin-top:;
 }
 
+a{
+    text-decoration: none;
+}
+
 /** Peut être pas utile
 p {
     font-family: 'Lato', sans-serif;
@@ -63,6 +67,7 @@ p {
     width: 10em;
     background-color: white;
     font-family: lato;
+    color: black;
 }
 
 
@@ -73,7 +78,7 @@ p {
     border: 0;
     background-color: #EBEBEB;
     font-family: lato;
-    font-size: 1.3em;
+    font-size: 1.5em;
     opacity: 0.6;
 }
 
@@ -208,7 +213,7 @@ header div {
 
 /*footer*/
 footer {
-    height: 7em;
+    height: 8em;
     width: 100vw;
     background-color: #242A2D;
     margin: none;
@@ -255,13 +260,8 @@ footer a {
     opacity: 0.1;
     padding-left: 0.2em;
     font-family: 'Passion One';
-    margin-bottom: 0;
-    margin-top: 0.4em;
 }
 
 .logoFoot img {
-    margin-top: 0.8em;
-}
-body{
-    position : relative;
+    margin-top: 2.2em
 }
