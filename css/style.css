@@ -110,6 +110,52 @@ p {
     color: white;
 }
 
+/* Header et Nav */
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #31393D;
+    height: 7em;
+    justify-content: space-around;
+}
+
+header img {
+    max-height: 4em;
+    margin-top: 1.2em;
+    margin-right: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    color: #45BE6F;
+}
+
+header li {
+    margin-right: 2em;
+}
+
+header div {
+    display: flex;
+}
+/* mettre class="pageActuel" sur le <li> assigné à la page pour le coloré en orange */
+.pageActuel {
+    color: #F56A42;
+}
+
 /***************************************************************MAIN*******************************************************/
 
 /*Bulle de la page d'accueil*/
