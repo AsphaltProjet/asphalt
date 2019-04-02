@@ -341,6 +341,60 @@ fieldset{
     border:none;
 }
 
+
+
+/*Détail trajet - choix trajet*/
+.detailTrajet{
+    text-align: center;
+}
+
+.detailTrajet .fenetre {
+    font-family: 'lato';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;       
+}
+
+.detailTrajet .champRempli{
+    border-radius: 10px;
+    display: inline;
+    border: 0;
+    height: 15px;
+    background-color: #CFCFCF;
+    font-family: 'lato';
+    vertical-align: baseline;
+}
+
+
+.detailTrajet .localisation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.detailTrajet .date{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.detailTrajet .horaires{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+
+}
+
+.detailTrajet .place{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
 /*footer*/
 footer {
     height: 8em;
