@@ -25,6 +25,14 @@ h2 {
     margin-top:;
 }
 
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #505050;
+    margin-top:;
+}
+
 p {
     font-family: 'Lato', sans-serif;
     font size: 16px;
