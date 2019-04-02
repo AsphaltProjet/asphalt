@@ -395,6 +395,61 @@ fieldset{
     justify-content:center;
 }
 
+/*Formulaire*/
+
+label {
+    color: #505050;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+
+option {
+    color: #505050;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+
+fieldset {
+    border: none;
+}
+
+/*partie haute du formulaire (nom prrénom)*/
+.inscription .formHaut {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*partie centrale du formulaire (date de naissance et num tel)*/
+.inscription .formCentre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*partie mots de passe et confirmation*/
+.inscription .formMdp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*partie passager et modele voiture*/
+.inscription .formPassager {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*partie conducteur et places dispo.*/
+.inscription .formConducteur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 /*footer*/
 footer {
     height: 8em;
