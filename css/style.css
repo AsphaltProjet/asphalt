@@ -35,12 +35,14 @@ h3 {
 
 p {
     font-family: 'Lato', sans-serif;
-    font size: 16px;
+    font-size: 16px;
     color: #505050;
+    text-align: justify;
 }
 
 .fenetre {
     background-color: white;
-    padding: 25px;
+    padding: 30px;
     border-radius: 10px;
+    margin:5%;
 }
