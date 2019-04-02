@@ -3,7 +3,7 @@ font-family: 'Fengardo'; */
 
 /* CSS DE BASE */
 body {
-    min-height:100%;
+    min-height:100vh;
     background-image: url("images/Fond.png");
     background-repeat: no-repeat;
     background-size: cover;
