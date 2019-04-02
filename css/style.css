@@ -208,8 +208,12 @@ header div {
 /*footer*/
 footer {
     height: 8em;
+    width: 100vw;
     background-color: #242A2D;
     margin: none;
+    display: block;
+    position: absolute;
+    bottom: 0;
 }
 
 footer p {
