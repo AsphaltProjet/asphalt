@@ -206,46 +206,52 @@ header div {
 }
 
 /*footer*/
-footer{
-    height: 11em;
+footer {
+    height: 8em;
     background-color: #242A2D;
     margin: none;
 }
-footer p{
+
+footer p {
     font-family: 'Lato';
     font-size: 16px;
     color: #CCCCCC;
 }
-footer p:hover{
-    font-weight: bold;
+
+footer p:hover {
+    transition: 0.5s;
+    color: #45BE6F;
 }
 
-footer img{
-    height: 4em;
+footer img {
+    height: 2.5em;
     display: flex;
 }
-footer a{
+
+footer a {
     text-decoration: none;
 }
-.lienFoot{
+
+.lienFoot {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 2em;
 }
-.logoFoot{
+
+.logoFoot {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.logoFoot p{
+
+.logoFoot p {
     font-family: 'Lato';
     font-weight: bolder;
     font-size: 2.5em;
-    opacity: 0.2;
+    opacity: 0.1;
     padding-left: 0.2em;
-}
-.logoFoot img{
-    margin-top: 1em;
+    font-family: 'Passion One';
 }
 
-
+.logoFoot img {
+    margin-top: 2.2em
+}
