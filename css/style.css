@@ -293,19 +293,28 @@ a i{
 }
 
 /*Détail trajet - choix trajet*/
-.detailTrajet{
+.detailTrajet {
+    text-align: center;
+    vertical-align: center;
+}
+
+.detailTrajet h2 {
+    font-family: 'Passion One', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
     text-align: center;
 }
 
-.detailTrajet .fa-user-circle{
+.detailTrajet .fa-user-circle {
     font-size: 4em;
     color: #CFCFCF;
     vertical-align: middle;
     margin-right: 20px
 }
 
-.detailTrajet h3{
+.detailTrajet h3 {
     margin-top: 0;
+    font-size: 25px;
 }
 
 .detailTrajet .fenetre {
@@ -317,125 +326,47 @@ a i{
     margin: 2% auto;
 }
 
-.detailTrajet .champRempli{
+.detailTrajet .champRempli {
     border-radius: 10px;
     display: inline;
     border: 0;
     height: 15px;
     background-color: #CFCFCF;
     font-family: 'lato';
-    vertical-align: baseline;
 }
 
-.detailTrajet p{
+.detailTrajet p {
     margin: auto 5px auto 10px;
-   
+
 }
 
 
-.detailTrajet .localisation{
+.detailTrajet .localisation {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin-bottom: 15px;
-
 }
 
 
-.detailTrajet .date{
+.detailTrajet .date {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-        margin-bottom: 15px;
-
 
 }
 
-.detailTrajet .horaires{
+.detailTrajet .horaires {
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    margin-bottom: 0;
     margin-bottom: 15px;
+    margin-top: 15px;
 
 
 }
 
-.detailTrajet .place{
+.detailTrajet .place {
     display: flex;
     flex-direction: row;
-    justify-content:center;
-}
-
-/*---Formulaire---*/
-label{
-    color: #505050;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3em;
-}
-option{
-    color: #505050;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3em;
-}
-fieldset{
-    border:none;
-}
-
-
-
-/*Détail trajet - choix trajet*/
-.detailTrajet{
-    text-align: center;
-}
-
-.detailTrajet .fenetre {
-    font-family: 'lato';
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;       
-}
-
-.detailTrajet .champRempli{
-    border-radius: 10px;
-    display: inline;
-    border: 0;
-    height: 15px;
-    background-color: #CFCFCF;
-    font-family: 'lato';
-    vertical-align: baseline;
-}
-
-
-.detailTrajet .localisation{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
-
-.detailTrajet .date{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-
-}
-
-.detailTrajet .horaires{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-
-}
-
-.detailTrajet .place{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
+    margin-bottom: 15px;
 }
 
 /*Formulaire*/
