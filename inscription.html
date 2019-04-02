@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -15,53 +14,122 @@
 
 <body>
     <header>
+        <div>
+            <a href="index.html" title="page d'accueil"><img src="images/logoAsphalt.png" alt="logo d'Asphalt" /></a>
+            <a href="index.html" title="page d'accueil"><h1>ASPHALT</h1></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="rechercheTrajet.html">rechercher</a></li>
+                <li><a href="proposerTrajet.html">proposer</a></li>
+                <li><a href="inscription">inscription</a></li>
+                <li><a href="connexion.html">connexion</a></li>
+            </ul>
+        </nav>
     </header>
 
     <nav>
     </nav>
 
     <main>
-        <section >
+        <section class="inscription">
             <h2> A propos de vous...</h2>
             <div class="fenetre">
                 <form action="" method="get">
-                    <fieldset>
-<!--                        <legend>ir-itir-è</legend>-->
-                        <div>
+
+                    <!--                        <legend></legend>-->
+                    <div class="formHaut">
+                        <fieldset>
                             <label for="nom"></label>
-                            <input type="text" id="nom" placeholder="Nom" required />
-                        </div>
-                        <div>
+                            <input class="saisie" type="text" id="nom" placeholder="Nom" name="nom" required />
+                        </fieldset>
+                        <fieldset>
                             <label for="prenom"></label>
-                            <input type="text" id="prenom" placeholder="Prenom" required />
-                        </div>
-                        <div>
+                            <input class="saisie" type="text" id="prenom" placeholder="Prenom" name="prenom" required />
+                        </fieldset>
+                    </div>
+
+                    <div>
+                        <fieldset>
                             <label for="adresseMail"></label>
-                            <input type="text" id="adresseMail" placeholder="Adresse Mail" required />
-                        </div>
-                        <div>
+                            <input class="saisie" type="email" id="adresseMail" placeholder="Adresse Mail" name="adresseMail" required />
+                        </fieldset>
+                    </div>
+
+
+                    <div class="formCentre">
+                        <fieldset>
                             <label for="dateNaissance"></label>
-                            <input type="text" id="dateNaissance" placeholder="dateNaissance " required />
-                        </div>
-                         <div>
+                            <input type="date" id="dateNaissance" placeholder="dateNaissance" name="dateNaissance" required />
+                        </fieldset>
+                        <fieldset>
                             <label for="numTel"></label>
-                            <input type="text" id="numTel" placeholder="Numéto de téléphone" required />
-                        </div>
-                        <div>
+                            <input class="saisie" type="tel" id="numTel" placeholder="Numéto de téléphone" name="numTel" required />
+                        </fieldset>
+                    </div>
+                    <div class="formMdp">
+                        <fieldset>
                             <label for="mdp"></label>
-                            <input type="text" id="mdp" placeholder="mot de passe" required />
-                        </div>
-                        <div>
+                            <input class="saisie" type="password" id="mdp" placeholder="mot de passe" name="mdp" required />
+                        </fieldset>
+                        <fieldset>
                             <label for="confirmationMdp"></label>
-                            <input type="text" id="v" placeholder="confirmez votre mot de passe" required />
-                        </div>
-                    </fieldset>
+                            <input class="saisie" type="password" id="confirmationMdp" placeholder="confirmez votre mot de passe" name="confirmationMdp" required />
+                        </fieldset>
+                    </div>
+                    <div class="formPassager">
+                        <fieldset>
+                            <input type="checkbox" id="passager" name="passager" required />
+                            <label for="passager"> passager</label>
+                        </fieldset>
+                        <fieldset>
+                            <label for="modeleVoiture"></label>
+                            <input class="saisie" type="text" id="modeleVoiture" name="modèleVoiture" placeholder="modèle de la voiture" required />
+                        </fieldset>
+                    </div>
+                    <div class="formConducteur">
+                        <fieldset>
+                            <input type="checkbox" id="conducteur" name="conducteur" required />
+                            <label for="conducteur"> conducteur </label>
+                        </fieldset>
+                        <fieldset>
+                            <label class="saisie" for="nbPlaces">places disponible</label>
+                            <select id="nbPlaces" name="nbPlaces" title="placesdispo">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                            </select>
+                        </fieldset>
+                    </div>
+
+
                 </form>
+
             </div>
+            <button class="boutonBlanc">Valider</button>
         </section>
     </main>
 
     <footer>
+        <div class="lienFoot">
+            <a href="aPropos.html">
+                <p>A propos</p>
+            </a>
+            <a href="nousContacter.html">
+                <p>Nous contacter</p>
+            </a>
+            <a href="CGU.html">
+                <p>CGU- confidentialité</p>
+            </a>
+        </div>
+        <div class="logoFoot">
+            <a href="index.html"><img src="images/logoGris.png" alt="logo ASPHALT" /></a>
+            <p>ASPHALT</p>
+        </div>
     </footer>
 </body>
 
