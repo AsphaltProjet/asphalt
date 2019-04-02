@@ -161,19 +161,21 @@ header div {
 /*Bulle de la page d'accueil*/
 .bulleAccueil{
     background-color: white;
-    height: 40px;
-    width: 150px;
+    height: 60px;
+    width: 200px;
     font-family: 'Lato';
     font-size: 14px;  
-    padding: 10px;
+    padding: 20px 20px 20px 20px;
     border-radius: 20px;
     position: relative;
     box-shadow: 4px 4px rgb(255,204,51);
+    left: 20%;
+    top: 40em;
 }
 
 .bulleAccueil p:first-child{
     text-align: left;
-    margin: 0;
+    margin-top: 10px;
 }
 
 .bulleAccueil p:nth-child(2){
@@ -186,9 +188,9 @@ header div {
     display : inline-block;
     height : 0;
     width : 0;
-    border-top : 18px solid rgb(255,204,51);
+    border-top : 17px solid rgb(255,204,51);
     border-right : 30px solid transparent;
-    margin: 11px 0 0 15px;
+    margin: 23px 0 0 15px;
 }
 
 .bulleAccueil::before{
@@ -200,7 +202,7 @@ header div {
     border-top : 17px solid white;
     border-right : 30px solid transparent;
     margin: 10px;
-    top: 48px;
+    top: 90px;
 }
 
 /*footer*/
