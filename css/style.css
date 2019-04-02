@@ -166,7 +166,7 @@ header div {
     font-family: 'Lato';
     font-size: 14px;  
     padding: 20px 20px 20px 20px;
-    border-radius: 20px;
+    border-radius: 30px;
     position: relative;
     box-shadow: 4px 4px rgb(255,204,51);
     left: 20%;
@@ -175,7 +175,7 @@ header div {
 
 .bulleAccueil p:first-child{
     text-align: left;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .bulleAccueil p:nth-child(2){
@@ -190,7 +190,7 @@ header div {
     width : 0;
     border-top : 17px solid rgb(255,204,51);
     border-right : 30px solid transparent;
-    margin: 23px 0 0 15px;
+    margin: 29px 0 0 15px;
 }
 
 .bulleAccueil::before{
