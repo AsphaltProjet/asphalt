@@ -46,7 +46,8 @@ p {
     border-radius: 10px;
     margin:5%;
 }
-////FOOTER POUR TOUTES LES PAGES (penser à supprimer)/////
+
+/*FOOTER POUR TOUTES LES PAGES*/
 footer{
     height: 11em;
     background-color: #242A2D;
@@ -88,10 +89,9 @@ footer a{
 .logoFoot img{
     margin-top: 1em;
 }
-////FOOTER POUR TOUTES LES PAGES (penser à supprimer)/////
 
 
-//Exemple de mise en forme de boutons//
+//*Exemple de mise en forme de boutons*//
 
 /*Pour les boutons valider*/
 .boutonBlanc{ 
@@ -148,3 +148,49 @@ footer a{
     height: 30px;
     color: white;
 }
+
+/*Bulle de la page d'accueil*/
+.bulleAccueil{
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    font-family: 'Lato';
+    font-size: 14px;  
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 4px 4px rgb(255,204,51);
+}
+
+.bulleAccueil p:first-child{
+    text-align: left;
+    margin: 0;
+}
+
+.bulleAccueil p:nth-child(2){
+    text-align: right;
+    margin: 5px 0 0 0;
+}
+
+.bulleAccueil::after{
+    content: "";
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 18px solid rgb(255,204,51);
+    border-right : 30px solid transparent;
+    margin: 11px 0 0 15px;
+}
+
+.bulleAccueil::before{
+    content: "";
+    position: absolute;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 17px solid white;
+    border-right : 30px solid transparent;
+    margin: 10px;
+    top: 48px;
+}
+
