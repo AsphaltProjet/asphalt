@@ -89,3 +89,62 @@ footer a{
     margin-top: 1em;
 }
 ////FOOTER POUR TOUTES LES PAGES (penser à supprimer)/////
+
+
+//Exemple de mise en forme de boutons//
+
+/*Pour les boutons valider*/
+.boutonBlanc{ 
+    border-radius: 30px;
+    font-size: 1.5em;
+    padding: 10px;
+    border: 0;
+    width: 10em;
+    background-color: white;
+    font-family: lato;
+}
+
+
+/*Modèle pour les champs de saisi*/
+.saisie{
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    background-color: #EBEBEB;
+    font-family: lato;
+    opacity: 0.6;
+}
+
+/*Modèle pour les champs pré-rempli*/
+.champRempli{
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    background-color: #CFCFCF;
+    font-family: lato;
+}
+
+
+/*Modèle pour les + petits boutons version grise*/
+.boutonGris{
+    border-radius: 10px;
+    padding: 5px;
+    border: 0;
+    width: 8em;
+    background-color: #CFCFCF;
+    font-family: lato;
+    height: 30px;
+    color: black;
+}
+
+/*Modèle pour les + petits boutons version orange*/
+.boutonOrange{
+    border-radius: 10px;
+    padding: 5px;
+    border: 0;
+    width: 8em;
+    background-color: #F56A42;
+    font-family: lato;
+    height: 30px;
+    color: white;
+}
