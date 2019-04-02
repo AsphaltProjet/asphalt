@@ -1,1 +1,94 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>ASPHALT</title>
+    <meta name="description" content="??????">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Où voulez-vous aller ?</h2>
+            <div class="fenetre">
+                <fieldset>
+                    <div>
+                        <label for="lieuDepart">Lieu de départ</label>
+                        <input type="text" id="lieuDepart" placeholder="Laval, 17 rue des lilas ..." required />
+                    </div>
+                    <div>
+                        <label for="lieuArrivee">Lieu d'arrivée</label>
+                        <input type="text" id="lieuArrivee" placeholder="Laval, Campus de Laval..." required />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <input type="checkbox" id="lieuDepartFavori" name="checkbox" />
+                        <label for="lieuDepartFavori">[Lieu de départ favori]</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="lieuArriveeFavori" name="checkbox" />
+                        <label for="lieuArriveeFavori">[Lieu d'arrivée favori]</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <label id="heure">Horaire de départ</label>
+                        <select name="heure" title="Heure">
+                            <option value="0">0h</option>
+                            <option value="1">1h</option>
+                            <option value="2">2h</option>
+                            <option value="3">3h</option>
+                            <option value="4">4h</option>
+                            <option value="5">5h</option>
+                            <option value="6">6h</option>
+                            <option value="7">7h</option>
+                            <option selected="selected" value="8">8h</option>
+                            <option value="9">9h</option>
+                            <option value="10">10h</option>
+                            <option value="11">11h</option>
+                            <option value="12">12h</option>
+                            <option value="13">13h</option>
+                            <option value="14">14h</option>
+                            <option value="15">15h</option>
+                            <option value="16">16h</option>
+                            <option value="17">17h</option>
+                            <option value="18">18h</option>
+                            <option value="19">19h</option>
+                            <option value="20">20h</option>
+                            <option value="21">21h</option>
+                            <option value="22">22h</option>
+                            <option value="23">23h</option>
+                        </select>
+                        <label id="minute">:</label>
+                        <select name="minute" title="Minute">
+                            <option selected="selected" value="0">00</option>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
