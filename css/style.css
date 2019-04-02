@@ -170,10 +170,10 @@ header div {
     height: 60px;
     width: 200px;
     font-family: 'Lato';
-    font-size: 14px;  
+    font-size: 15px;  
     padding: 20px 20px 20px 20px;
     border-radius: 30px;
-    position: relative;
+    position: fixed;
     box-shadow: 4px 4px rgb(255,204,51);
     left: 20%;
     top: 40em;
@@ -187,6 +187,7 @@ header div {
 .bulleAccueil p:nth-child(2){
     text-align: right;
     margin: 5px 0 0 0;
+    font-size: 13px;
 }
 
 .bulleAccueil::after{
@@ -210,6 +211,39 @@ header div {
     margin: 10px;
     top: 90px;
 }
+
+.boutonsAccueil{
+    display: flex;
+    justify-content: space-around;
+}
+
+.accueil .fenetre{
+    width: 70vh;
+    margin: 2% auto;
+}
+
+.accueil .boutonBlanc{
+    background-color: #CFCFCF;
+}
+
+.accueil h2{
+    font-family: 'Passion One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #505050;
+    margin:0 0 30px 0;
+}
+
+
+.accueil .fenetre::before{
+    content: url(/images/logoAsphalt.png);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 50px;
+}
+
 
 
 /*Détail trajet - choix trajet*/
