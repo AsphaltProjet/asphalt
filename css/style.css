@@ -46,3 +46,46 @@ p {
     border-radius: 10px;
     margin:5%;
 }
+////FOOTER POUR TOUTES LES PAGES/////
+footer{
+    height: 11em;
+    background-color: #242A2D;
+    margin: none;
+}
+footer p{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #CCCCCC;
+}
+footer p:hover{
+    font-weight: bold;
+}
+
+footer img{
+    height: 4em;
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+}
+.lienFoot{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.logoFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logoFoot p{
+    font-family: 'Lato';
+    font-weight: bolder;
+    font-size: 2.5em;
+    opacity: 0.2;
+    padding-left: 0.2em;
+}
+.logoFoot img{
+    margin-top: 1em;
+}
+////FOOTER POUR TOUTES LES PAGES/////
