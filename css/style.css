@@ -208,7 +208,7 @@ header div {
 
 /*footer*/
 footer {
-    height: 8em;
+    height: 7em;
     width: 100vw;
     background-color: #242A2D;
     margin: none;
@@ -255,8 +255,13 @@ footer a {
     opacity: 0.1;
     padding-left: 0.2em;
     font-family: 'Passion One';
+    margin-bottom: 0;
+    margin-top: 0.4em;
 }
 
 .logoFoot img {
-    margin-top: 2.2em
+    margin-top: 0.8em;
+}
+body{
+    position : relative;
 }
