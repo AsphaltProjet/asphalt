@@ -625,7 +625,10 @@ a i{
 }
 
 /*------------------------------rechercher---------------*/
-
+.rechercher .fenetre{
+    max-width: 50em;
+    margin: 2% auto;
+ }
 .rechercher{
     text-align: center;
     display: flex;
@@ -765,6 +768,55 @@ a i{
 .proposer fieldset {
     border: none;
 }
+.proposer .fenetre{
+    max-width: 50em;
+    margin: 2% auto;
+ }
+ 
+/*-------confirmation inscription------------*/
+
+
+.confirmationInscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.confirmationInscription p a{
+    color:#F56A42;
+}
+
+.confirmationInscription p a:hover{
+    color: #45BE6F;
+    text-decoration: underline;
+}
+
+.confirmationInscription .fenetre p:last-child{
+    padding-bottom: 10%;
+}
+
+
+.confirmationInscription .fenetre{
+    background-image: url(/images/vroum.svg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 60%;
+    max-width: 50em;
+    margin: 2% auto;
+}
+
+.confirmationInscription p{
+    color: #505050;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    
+    padding: 0% 5% 0% 5%;
+}    
+    
+    
 /*Formulaire*/
 
 
