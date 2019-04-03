@@ -325,7 +325,7 @@ a i{
     font-size: 4em;
     color: #CFCFCF;
     vertical-align: middle;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .detailTrajet h3 {
@@ -340,7 +340,7 @@ a i{
     justify-content: center;
     width: 40vw;
     margin: 2% auto;
-    min-width: 500px
+    min-width: 500px;
 }
 
 .detailTrajet .champRempli {
