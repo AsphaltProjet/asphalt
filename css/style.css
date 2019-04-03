@@ -603,7 +603,8 @@ display: flex;
 
 /*------------------------------rechercher---------------*/
 .rechercher .fenetre{
-    max-width: 50em;
+    max-width: 80vw;
+    min-width: 60vw;
     margin: 2% auto;
  }
 .rechercher{
@@ -746,7 +747,8 @@ display: flex;
     border: none;
 }
 .proposer .fenetre{
-    max-width: 50em;
+    max-width: 80vw;
+    min-width: 60vw;
     margin: 2% auto;
  }
  
