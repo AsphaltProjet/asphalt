@@ -397,24 +397,6 @@ a i{
     flex-direction: column;
 }
 
-
-.rechercher label{
-    color: #505050;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3em;
-}
-.rechercher option{
-    color: #505050;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 1em;
-}
-.rechercher fieldset{
-    border:none;
-
-}
-
 .rechercher .calendrier input{
     background-color: #CFCFCF;
     color:#505050;
