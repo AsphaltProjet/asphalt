@@ -428,6 +428,89 @@ a i{
 
 
 /*Tableau de bord*/ 
+.detailTrajet {
+    text-align: center;
+    vertical-align: center;
+}
+
+.detailTrajet h2 {
+    font-family: 'Passion One', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+}
+
+.detailTrajet .fa-user-circle {
+    font-size: 4em;
+    color: #CFCFCF;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.detailTrajet h3 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.detailTrajet .fenetre {
+    font-family: 'lato';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    margin: 2% auto;
+    min-width: 500px;
+}
+
+.detailTrajet .champRempli {
+    border-radius: 10px;
+    display: inline;
+    border: 0;
+    height: 15px;
+    background-color: #CFCFCF;
+    font-family: 'lato';
+}
+
+.detailTrajet p {
+    margin: auto 5px auto 10px;
+}
+
+
+.detailTrajet .localisation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+
+.detailTrajet .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detailTrajet .horaires {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    justify-content: center;
+
+
+}
+
+.detailTrajet .place {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content: center;
+
+}
+
+
+
+/*Tableau de bord*/ 
 .topTableau{
     display: flex;
     justify-content: space-around;
@@ -518,10 +601,27 @@ a i{
     font-size: 1.3em;
 }
 
+.avisTableau{
+    text-align: center;
+}
+
 .avisTableau .etoile{
     font-size: 1.5em;
 }
 
+.avisTableau fieldset{
+    border: none;
+    vertical-align: middle;
+}
+
+.avisTableau label{
+    font-family: Lato;
+    vertical-align: super;
+}
+
+.avisTableau textarea{
+    border-radius: 20px;
+}
 
 /*------------------------------rechercher---------------*/
 
