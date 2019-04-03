@@ -252,6 +252,7 @@ header div {
     display: block;
     background-repeat: no-repeat;
     margin: 3em auto;
+    z-index: 1;
 }
 
 
