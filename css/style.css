@@ -29,12 +29,13 @@ h1 {
     font-size: 3em;
 }
 
-h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 40px;
-    text-align: center;
+h2{
+    font-family: 'Passion One', cursive;
     color: white;
-    margin-top:;
+    font-style:normal; 
+    font-size: 3em;
+    font-weight: lighter;
+    text-align: center;
 }
 
 h3 {
