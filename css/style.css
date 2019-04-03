@@ -308,6 +308,17 @@ a i{
     padding-right: 1.5em;
 }
 
+/* signalement (reprend du code de la page connexion) */
+
+.signalement{
+    text-align: center;
+}
+
+.connexionFormulaire label{
+        margin-bottom: 0.4em;
+    margin-top: 1.4em;
+}
+
 /*Détail trajet - choix trajet*/
 .detailTrajet {
     text-align: center;
