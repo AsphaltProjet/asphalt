@@ -377,6 +377,90 @@ a i{
     justify-content: center;
 
 }
+
+/*------------------------------rechercher---------------*/
+
+.rechercher{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rechercher label{
+    color: #505050;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+.rechercher option{
+    color: #505050;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+.rechercher fieldset{
+    border:none;
+
+}
+
+.rechercher .calendrier input{
+    background-color: #CFCFCF;
+    color:#505050;
+    border:none;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+}
+
+.rechercher .lieux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.rechercher .lieux i{
+    transform: scale(4);
+    color: #31393D;
+    padding-top: 50%
+}
+.rechercher .favoris{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rechercher .favoris .depart{
+    transform: translateX(-20%);
+}
+.rechercher .favoris .arrivee{
+    transform: translateX(20%);
+}
+.rechercher .horaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rechercher .timing{
+    display: flex;
+    flex-direction: row;
+}
+.rechercher .timing select{
+    background-color: #CFCFCF;
+    color:#505050;
+    font-size: 1.2em;
+    border:none;
+    border-radius: 5px;
+}
+.rechercher .fenetre>div {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.rechercher .boutonBlanc:hover{
+    background-color: #CFCFCF;
+    transition: 0.5s;
+}
+
 /*Formulaire*/
 
 label {
