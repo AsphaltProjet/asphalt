@@ -2,12 +2,12 @@
 font-family: 'Fengardo'; */
 
 html{
-    min-height:100vh;
+    min-height:calc( 100vh - 9em );
 }
 
 /* CSS DE BASE */
 body {
-    min-height:calc( 100vh - 8em );
+    min-height:calc( 100vh - 9em );
     max-width: 100vw;
     background-image: url("images/Fond.png");
     background-repeat: no-repeat;
