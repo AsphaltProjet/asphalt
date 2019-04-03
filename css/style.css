@@ -53,6 +53,14 @@ textarea{
     font-size: 1em !important;
 }
 
+select{
+    background-color: #CFCFCF;
+    color:#505050;
+    font-size: 1.2em;
+    border:none;
+    border-radius: 5px;
+}
+
 /** Peut être pas utile
 p {
     font-family: 'Lato', sans-serif;
@@ -540,13 +548,7 @@ a i{
     display: flex;
     flex-direction: row;
 }
-.rechercher .timing select{
-    background-color: #CFCFCF;
-    color:#505050;
-    font-size: 1.2em;
-    border:none;
-    border-radius: 5px;
-}
+
 .rechercher .fenetre>div {
     margin-top: 3%;
     margin-bottom: 3%;
