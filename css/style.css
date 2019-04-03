@@ -406,6 +406,92 @@ a i{
 
 }
 
+
+
+/*Tableau de bord*/ 
+.topTableau{
+    display: flex;
+    justify-content: space-around;
+}
+
+.trajetAVenir{
+    max-width: 400px;
+}
+
+.demandeTableau{
+    max-width: 400px;
+}
+
+
+.tableauBord p{
+    font-family: 'Lato';
+}
+
+.detailTrajet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.horaireTrajet{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.adresseTrajet{
+    display: flex;
+    flex-direction: column;
+}
+
+.unTrajet{
+    border: solid 2px #CFCFCF;
+    border-radius: 30px;
+    padding: 0px 15px 15px 15px;
+    margin-bottom: 15px;
+}
+
+
+.demandeTableau .unTrajet {
+    max-width: 400px;
+}
+
+.tableauBord .fa-user-circle{
+    font-size: 4em;
+    color: #CFCFCF;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.tableauBord .confirmer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.tableauBord .fa-check-circle{
+    color: #45BE6F;
+    font-size: 1.3em;
+}
+
+.tableauBord .far-check-circle{
+    color: #45BE6F;
+    font-size: 1.3em;
+
+}
+
+.tableauBord .fa-times-circle{
+    color: #F56A42;
+    font-size: 1.3em;
+}
+
+.tableauBord .far-times-circle{
+    color: #F56A42;
+    font-size: 1.3em;
+}
+
 /*------------------------------rechercher---------------*/
 
 .rechercher{
