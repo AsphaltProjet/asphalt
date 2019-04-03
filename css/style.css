@@ -350,6 +350,7 @@ a i{
 .detailTrajet {
     text-align: center;
     vertical-align: center;
+    
 }
 
 .detailTrajet h2 {
@@ -428,6 +429,7 @@ a i{
 }
 
 
+
 /*Tableau de bord*/ 
 .topTableau{
     display: flex;
@@ -454,7 +456,7 @@ a i{
     font-family: 'Lato';
 }
 
-.detailTrajet{
+.tableauBord .detailTrajet{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -596,6 +598,7 @@ display: flex;
 .modalites{
     text-align: center;
 }
+
 
 /*------------------------------rechercher---------------*/
 .rechercher .fenetre{
