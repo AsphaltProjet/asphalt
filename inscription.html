@@ -57,7 +57,7 @@
                     </div>
                     <div class="formBas">
                         <div class="formBasGauche">
-                            <fieldset>
+                            <fieldset class="calendrier">
                                 <label for="dateNaissance"></label>
                                 <input type="date" id="dateNaissance" placeholder="dateNaissance" name="dateNaissance" required />
                             </fieldset>
@@ -87,9 +87,9 @@
                                 <label for="modeleVoiture"></label>
                                 <input class="saisie" type="text" id="modeleVoiture" name="modèleVoiture" placeholder="modèle de la voiture" required />
                             </fieldset>
-                            <fieldset>
+                            <div>
                                 <label class="saisie" for="nbPlaces">places disponible</label>
-                                <select id="nbPlaces" name="nbPlaces" title="placesdispo">
+                                <select id="nbPlaces" name="nbPlaces" title="placesdispo" class="liste">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -98,7 +98,7 @@
                                     <option value="6">6</option>
                                     <option value="7">7</option>
                                 </select>
-                            </fieldset>
+                            </div>
                         </div>
                     </div>
                 </form>
