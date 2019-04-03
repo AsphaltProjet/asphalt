@@ -409,15 +409,6 @@ a i{
     flex-direction: column;
 }
 
-.rechercher .calendrier input{
-    background-color: #CFCFCF;
-    color:#505050;
-    border:none;
-    border-radius: 5px;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2em;
-}
-
 .rechercher .lieux{
     display: flex;
     flex-direction: row;
@@ -449,7 +440,7 @@ a i{
     display: flex;
     flex-direction: row;
 }
-.rechercher .timing select{
+select{
     background-color: #CFCFCF;
     color:#505050;
     font-size: 1.2em;
@@ -483,7 +474,7 @@ a i{
 }
 
 
-.proposer .calendrier input{
+.calendrier input{
     background-color: #CFCFCF;
     color:#505050;
     border:none;
@@ -549,16 +540,6 @@ a i{
     border: none;
 }
 /*Formulaire*/
-
-
-
-.liste option{
-    color: #505050;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3em;
-}
-
 
 
 /*partie haute du formulaire (nom prrénom)*/
