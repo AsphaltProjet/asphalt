@@ -263,6 +263,11 @@ header div {
     margin-bottom: 1.4em;
 }
 
+.connexionFormulaire .fenetre{
+    max-width: 50em;
+    margin: 2% auto;
+}
+
 .connexionFormulaire div{
     display: flex;
     flex-direction: column;
