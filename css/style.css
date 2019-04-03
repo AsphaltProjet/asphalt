@@ -241,10 +241,11 @@ header div {
     justify-content: space-around;
 }
 
+
 .accueil .fenetre{
     width: 45vw;
     margin: 2% auto;
-}
+    min-width: 500px
 
 .accueil .boutonBlanc{
     background-color: #CFCFCF;
