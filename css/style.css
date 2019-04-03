@@ -262,7 +262,7 @@ header div {
 
 .accueil::before{
     content: "";
-    background-image: url(/images/logoAsphalt.png);
+    background-image: url(../images/logoAsphalt.png);
     background-size: contain;
     width: 200px;
     height: 150px;
