@@ -633,12 +633,23 @@ footer a {
 .bioUser{
     font-family: 'Lato';
     font-size: 1.5em;
-    text-align: center;
 }
 .etoile{
     font-size: 35px;
-    text-align: center;
     color: gold;
+}
+.boutonContacter{ 
+    border-radius: 30px;
+    font-size: 1em;
+    padding: 10px;
+    border: 0;
+    width: 8em;
+    background-color: #CFCFCF;
+    font-family: lato;
+    color: black;
+}
+.boutonContacter:hover{ 
+    font-weight: bold;
 }
 /*bulle commentaire*/
 .bulleCom{
