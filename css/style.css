@@ -494,32 +494,21 @@ fieldset {
     flex-direction: row;
     justify-content: space-around;
 }
-
-/*partie centrale du formulaire (date de naissance et num tel)*/
-.inscription .formCentre {
+.inscription .formBas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-/*partie mots de passe et confirmation*/
-.inscription .formMdp {
+.inscription .formBasGauche {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
-/*partie passager et modele voiture*/
-.inscription .formPassager {
+.inscription .formBasDroit {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-/*partie conducteur et places dispo.*/
-.inscription .formConducteur {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
