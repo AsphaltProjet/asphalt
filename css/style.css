@@ -1010,3 +1010,21 @@ footer a {
     left: 7px;
     font-family: 'Lato', sans-serif;
 }
+
+
+/*************************************************************NOUS CONTACTER****************************************************/
+
+.contact .fenetre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.champsContact{
+    display: flex;
+    flex-direction: column;
+}
+
+.message input{
+    width: 45vw;
+    height: 45vh;
+}
