@@ -792,7 +792,7 @@ display: flex;
 }    
     
     
-/*Formulaire*/
+/*--------------------------------------------inscription--*/
 .inscription {
     text-align: center;
 }
@@ -832,6 +832,15 @@ display: flex;
     font-size: 1.3em;
 }
 
+.inscription form {
+    max-width: 50vw;
+    margin:auto;
+}
+
+.inscription .fenetre {
+    max-width: 50vw;
+    margin:auto;
+}
 /*footer*/
 footer {
     height: 8em;
