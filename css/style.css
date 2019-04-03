@@ -44,6 +44,10 @@ a{
     text-decoration: none;
 }
 
+textarea{
+    font-size: 1em !important;
+}
+
 /** Peut être pas utile
 p {
     font-family: 'Lato', sans-serif;
