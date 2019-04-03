@@ -893,7 +893,7 @@ footer a {
     margin-right: 100px;
     
 }
-.fenetre{
+.sectionUser .fenetre{
     width: 70vw;
     display: flex;
     flex-direction: column;
