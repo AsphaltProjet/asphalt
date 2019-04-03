@@ -321,9 +321,10 @@ a i{
     font-family: 'lato';
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     width: 40vw;
     margin: 2% auto;
+    min-width: 500px
 }
 
 .detailTrajet .champRempli {
@@ -337,7 +338,6 @@ a i{
 
 .detailTrajet p {
     margin: auto 5px auto 10px;
-
 }
 
 
@@ -345,13 +345,14 @@ a i{
     display: flex;
     flex-direction: row;
     margin-bottom: 15px;
+    justify-content: center;
 }
 
 
 .detailTrajet .date {
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
 }
 
 .detailTrajet .horaires {
@@ -359,6 +360,7 @@ a i{
     flex-direction: row;
     margin-bottom: 15px;
     margin-top: 15px;
+    justify-content: center;
 
 
 }
@@ -367,8 +369,9 @@ a i{
     display: flex;
     flex-direction: row;
     margin-bottom: 15px;
-}
+    justify-content: center;
 
+}
 /*Formulaire*/
 
 label {
