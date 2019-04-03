@@ -471,7 +471,71 @@ a i{
     background-color: #CFCFCF;
     transition: 0.5s;
 }
+/*------------------------------proposer---------------*/
 
+.proposer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.proposer .calendrier input{
+    background-color: #CFCFCF;
+    color:#505050;
+    border:none;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+}
+
+.proposer .lieux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.proposer .lieux i{
+    transform: scale(4);
+    color: #31393D;
+    padding-top: 50%
+}
+.proposer .favoris{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.proposer .favoris .depart{
+    transform: translateX(-20%);
+}
+.proposer .favoris .arrivee{
+    transform: translateX(20%);
+}
+.proposer .horaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.proposer .timing{
+    display: flex;
+    flex-direction: row;
+}
+.proposer .timing select{
+    background-color: #CFCFCF;
+    color:#505050;
+    font-size: 1.2em;
+    border:none;
+    border-radius: 5px;
+}
+.proposer .fenetre>div {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.proposer .boutonBlanc:hover{
+    background-color: #CFCFCF;
+    transition: 0.5s;
+}
 /*Formulaire*/
 
 label {
