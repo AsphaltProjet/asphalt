@@ -453,6 +453,15 @@ a i{
     background-color: #CFCFCF;
     transition: 0.5s;
 }
+.rechercher label {
+    color: #505050;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+.rechercher fieldset {
+    border: none;
+}
 /*------------------------------proposer---------------*/
 
 .proposer{
@@ -518,25 +527,27 @@ a i{
     background-color: #CFCFCF;
     transition: 0.5s;
 }
-/*Formulaire*/
-
-label {
+.proposer label {
     color: #505050;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 1.3em;
 }
-
-option {
-    color: #505050;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3em;
-}
-
-fieldset {
+.proposer fieldset {
     border: none;
 }
+/*Formulaire*/
+
+
+
+.liste option{
+    color: #505050;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+
+
 
 /*partie haute du formulaire (nom prrénom)*/
 .inscription .formHaut {
