@@ -55,58 +55,52 @@
                             <input class="saisie" type="email" id="adresseMail" placeholder="Adresse Mail" name="adresseMail" required />
                         </fieldset>
                     </div>
-
-
-                    <div class="formCentre">
-                        <fieldset>
-                            <label for="dateNaissance"></label>
-                            <input type="date" id="dateNaissance" placeholder="dateNaissance" name="dateNaissance" required />
-                        </fieldset>
-                        <fieldset>
-                            <label for="numTel"></label>
-                            <input class="saisie" type="tel" id="numTel" placeholder="Numéto de téléphone" name="numTel" required />
-                        </fieldset>
+                    <div class="formBas">
+                        <div class="formBasGauche">
+                            <fieldset>
+                                <label for="dateNaissance"></label>
+                                <input type="date" id="dateNaissance" placeholder="dateNaissance" name="dateNaissance" required />
+                            </fieldset>
+                            <fieldset>
+                                <label for="mdp"></label>
+                                <input class="saisie" type="password" id="mdp" placeholder="mot de passe" name="mdp" required />
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" id="passager" name="passager" required />
+                                <label for="passager"> passager</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" id="conducteur" name="conducteur" required />
+                                <label for="conducteur"> conducteur </label>
+                            </fieldset>
+                        </div>
+                        <div class="formBasDroit">
+                            <fieldset>
+                                <label for="numTel"></label>
+                                <input class="saisie" type="tel" id="numTel" placeholder="Numéto de téléphone" name="numTel" required />
+                            </fieldset>
+                            <fieldset>
+                                <label for="confirmationMdp"></label>
+                                <input class="saisie" type="password" id="confirmationMdp" placeholder="confirmez votre mot de passe" name="confirmationMdp" required />
+                            </fieldset>
+                            <fieldset>
+                                <label for="modeleVoiture"></label>
+                                <input class="saisie" type="text" id="modeleVoiture" name="modèleVoiture" placeholder="modèle de la voiture" required />
+                            </fieldset>
+                            <fieldset>
+                                <label class="saisie" for="nbPlaces">places disponible</label>
+                                <select id="nbPlaces" name="nbPlaces" title="placesdispo">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                </select>
+                            </fieldset>
+                        </div>
                     </div>
-                    <div class="formMdp">
-                        <fieldset>
-                            <label for="mdp"></label>
-                            <input class="saisie" type="password" id="mdp" placeholder="mot de passe" name="mdp" required />
-                        </fieldset>
-                        <fieldset>
-                            <label for="confirmationMdp"></label>
-                            <input class="saisie" type="password" id="confirmationMdp" placeholder="confirmez votre mot de passe" name="confirmationMdp" required />
-                        </fieldset>
-                    </div>
-                    <div class="formPassager">
-                        <fieldset>
-                            <input type="checkbox" id="passager" name="passager" required />
-                            <label for="passager"> passager</label>
-                        </fieldset>
-                        <fieldset>
-                            <label for="modeleVoiture"></label>
-                            <input class="saisie" type="text" id="modeleVoiture" name="modèleVoiture" placeholder="modèle de la voiture" required />
-                        </fieldset>
-                    </div>
-                    <div class="formConducteur">
-                        <fieldset>
-                            <input type="checkbox" id="conducteur" name="conducteur" required />
-                            <label for="conducteur"> conducteur </label>
-                        </fieldset>
-                        <fieldset>
-                            <label class="saisie" for="nbPlaces">places disponible</label>
-                            <select id="nbPlaces" name="nbPlaces" title="placesdispo">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                            </select>
-                        </fieldset>
-                    </div>
-
-
                 </form>
 
             </div>
