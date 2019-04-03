@@ -422,6 +422,13 @@ a i{
     justify-content: space-around;
 }
 
+.tableauBord .fenetre{
+    width: 50vw;
+    margin: 2% auto;
+    min-width: 800px;    
+}
+
+
 .trajetAVenir{
     max-width: 400px;
 }
@@ -461,7 +468,7 @@ a i{
 }
 
 
-.demandeTableau .unTrajet {
+.demandeTrajet .unTrajet {
     max-width: 400px;
 }
 
@@ -499,6 +506,11 @@ a i{
     color: #F56A42;
     font-size: 1.3em;
 }
+
+.avisTableau .etoile{
+    font-size: 1.5em;
+}
+
 
 /*------------------------------rechercher---------------*/
 
