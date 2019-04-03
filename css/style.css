@@ -818,16 +818,13 @@ a i{
     
     
 /*Formulaire*/
-
-
-
-.liste option{
-    color: #505050;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3em;
+.inscription {
+    text-align: center;
 }
 
+.inscription fieldset{
+    border:none;
+}
 
 
 /*partie haute du formulaire (nom prrénom)*/
@@ -852,6 +849,12 @@ a i{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.inscription label {
+    color: #505050;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
 }
 
 /*footer*/
