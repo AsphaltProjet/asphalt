@@ -428,6 +428,26 @@ a i{
     justify-content: center;
 
 }
+/*---------------------CGU-----------------------*/
+.cgu{
+    font-family: 'Lato', sans-serif;
+color: #505050;
+    text-align: justify;
+    font-size: 15px;
+}
+.cgu .fenetre{
+    max-width: 50em;
+    margin: 2% auto;
+}
+.cgu .titre{
+    margin-top: 10%;
+    font-size: 24px;
+    text-decoration: none;
+}
+.cgu .sousTitre{
+    font-size: 18px;
+    text-decoration: underline;
+}
 
 
 
