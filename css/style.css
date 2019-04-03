@@ -315,6 +315,7 @@ a i{
 }
 
 .connexionFormulaire label{
+    font-family: 'Lato', sans-serif;
     margin-bottom: 0.4em;
     margin-top: 1.4em;
 }
