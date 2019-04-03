@@ -428,90 +428,6 @@ a i{
 }
 
 
-
-/*Tableau de bord*/ 
-.detailTrajet {
-    text-align: center;
-    vertical-align: center;
-}
-
-.detailTrajet h2 {
-    font-family: 'Passion One', sans-serif;
-    font-weight: 100;
-    font-size: 50px;
-    text-align: center;
-}
-
-.detailTrajet .fa-user-circle {
-    font-size: 4em;
-    color: #CFCFCF;
-    vertical-align: middle;
-    margin-right: 20px;
-}
-
-.detailTrajet h3 {
-    margin-top: 0;
-    font-size: 25px;
-}
-
-.detailTrajet .fenetre {
-    font-family: 'lato';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40vw;
-    margin: 2% auto;
-    min-width: 500px;
-}
-
-.detailTrajet .champRempli {
-    border-radius: 10px;
-    display: inline;
-    border: 0;
-    height: 15px;
-    background-color: #CFCFCF;
-    font-family: 'lato';
-}
-
-.detailTrajet p {
-    margin: auto 5px auto 10px;
-}
-
-
-.detailTrajet .localisation {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 15px;
-    justify-content: center;
-}
-
-
-.detailTrajet .date {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.detailTrajet .horaires {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    justify-content: center;
-
-
-}
-
-.detailTrajet .place {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 15px;
-    justify-content: center;
-
-}
-
-
-
 /*Tableau de bord*/ 
 .topTableau{
     display: flex;
@@ -623,6 +539,62 @@ a i{
 
 .avisTableau textarea{
     border-radius: 20px;
+}
+
+.adresseTrajet{
+    text-align: justify
+}
+
+/*Liste trajet*/
+.choixTrajet .fenetre{
+    width: 40vw;
+    margin: 2% auto;
+    min-width: 800px;  
+    font-family: 'Lato';
+    display: flex;
+    justify-content: center;
+}
+
+.choixTrajet .detailTrajet{
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.listeTrajet .unTrajet{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 20px 30px;
+    width: 40em;
+}
+
+.listeTrajet .boutonOrange{
+    padding-bottom: 0;
+    padding-top: 8px;
+}
+
+
+
+.blocTrajet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.unTrajet .dateTrajet{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 600
+}
+
+.unTrajet .detailTrajet{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.modalites{
+    text-align: center;
 }
 
 /*------------------------------rechercher---------------*/
