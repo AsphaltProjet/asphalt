@@ -911,7 +911,6 @@ footer a {
 }
 
 
-/*PAGE UTILISATEUR*/
 .sectionUser .fa-user-circle{
     font-size: 4em;
     color: #CFCFCF;
@@ -919,7 +918,7 @@ footer a {
     margin-right: 100px;
     
 }
-.sectionUser .fenetre{
+.fenetre{
     width: 70vw;
     display: flex;
     flex-direction: column;
@@ -963,9 +962,7 @@ footer a {
     font-family: lato;
     color: black;
 }
-.boutonContacter:hover{ 
-  box-shadow:  2px 5px 5px grey;
-}
+
 
 /*bulle commentaire*/
 .bulleCom{
@@ -989,8 +986,11 @@ footer a {
 }
 
 .bulleCom p:nth-child(2){
-    text-align: right;
     margin: 5px 0 0 0;
+    width: 30em;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
 }
 
 .bulleCom::after{
@@ -1004,7 +1004,7 @@ footer a {
 }
 .bulleCom .fa-user-circle{
     position: absolute;
-    z-index:2;
+    z-index: 2;
     color: dimgrey;
     top: 0.15em;
     margin-right: 0;
@@ -1017,3 +1017,11 @@ footer a {
 .etoile2 .fa-star{
     padding: 0.5em;
 }
+.bulleCom p{
+    
+}*/
+.bulleCom p i{
+    padding: 0 0.5em 0 0.5em;
+}
+
+
