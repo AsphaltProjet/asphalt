@@ -577,7 +577,21 @@ color: #505050;
     min-width: 800px;  
     font-family: 'Lato';
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.choixTrajet .localisation{
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.choixTrajet .localisation p{
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .choixTrajet .detailTrajet{
@@ -598,7 +612,10 @@ display: flex;
     padding-top: 8px;
 }
 
-
+.choixTrajet .listeTrajet{
+    justify-content: center;
+    margin: auto;
+}
 
 .blocTrajet{
     display: flex;
@@ -621,6 +638,34 @@ display: flex;
 .modalites{
     text-align: center;
 }
+
+
+.filtrer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+.filtrer .boutonGris{
+    background: none;
+    border: solid 2px #CFCFCF;
+    margin: 10px;
+    max-height: 20px;
+    max-width: 50em;
+}
+
+.filtrer .boutonGris:active{
+    background: #8fdea8;
+    border: solid 2px #8fdea8;
+    margin: 10px;
+    max-height: 20px;
+    max-width: 50em;
+    color: white;
+}
+
 
 
 /*****************------------------------------rechercher---------------------------***********************/
