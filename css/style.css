@@ -807,6 +807,68 @@ display: flex;
     margin: 2% auto;
  }
  
+/*** plusDetail ***/
+
+.plusDetail h3 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.plusDetail .champRempli {
+    border-radius: 10px;
+    display: inline;
+    border: 0;
+    height: 15px;
+    background-color: #CFCFCF;
+    font-family: 'lato';
+}
+
+.plusDetail .fenetre {
+    font-family: 'lato';
+    display: flex;
+    flex-direction: column;
+    max-width: 70em;
+    margin: 2% auto;
+    min-width: 500px;
+}
+
+.detailCarte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plusDetail .carte{
+    max-width: 50em;
+    
+}
+
+.plusDetail .localisation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.plusDetail .localisation p{
+    margin-right: 0.25em;
+}
+
+.plusEspace {
+    margin-right: 1em;
+}
+
+.plusProposition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plusProposition .champRempli{
+    width: 20em;
+    height: 15em;
+    text-align: center;
+}
+
 /*****************************-------confirmation inscription------------********************************/
 
 
