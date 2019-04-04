@@ -1186,10 +1186,10 @@ display: flex;
 
 /*----nipas---*/
 
-.inscription h2 a{
+.cgu h2 a{
     color:white;
 }
-.inscription h2 a:hover{
+.cgu h2 a:hover{
     cursor: default;
 }
 
