@@ -440,6 +440,58 @@ a i{
     justify-content: center;
 
 }
+/*----------------PROFIL PERSO---------*/
+.profilPerso h3 {
+    color: #505050;
+    text-align: left;
+}
+
+.profilPerso .infos {
+    color: #31393D;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilPerso .infos2 {
+    color: #31393D;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profilPerso .fenetre {
+    max-width: 40vw;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profilPerso .champRempli {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.profilPerso .boutonHaut{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.profilPerso .boutonHaut a:last-child{
+    margin-left: 4%;
+}
+.profilPerso{
+    text-align: center;
+    vertical-align: center;
+    margin-bottom: 2%;
+}
+
 /*---------------------CGU-----------------------*/
 .cgu{
     font-family: 'Lato', sans-serif;
