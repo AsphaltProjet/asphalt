@@ -132,7 +132,7 @@ select{
 }
 .boutonGris:hover{
     cursor: pointer;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     transition: 0.5s;
 }
 
@@ -149,7 +149,7 @@ select{
 }
 .boutonOrange:hover{
     cursor: pointer;
-    background-color:#AF3512;
+    background-color: #AF3512;
     transition: 0.5s;
 }
 /* Header et Nav */
