@@ -198,9 +198,9 @@ header div {
     color: #F56A42;
 }
 
-/***************************************************************MAIN*******************************************************/
 
-/*******************************ACCUEIL******************/
+
+/*********************************************************ACCUEIL**************************************/
 /*Bulle de la page d'accueil*/
 .bulleAccueil{
     background-color: white;
@@ -288,7 +288,7 @@ header div {
 }
 
 
-/* Connexion */
+/****************************************************** Connexion *****************************************************/
 
 .connexion{
     text-align:center;
@@ -354,7 +354,7 @@ a i{
     margin: 2% auto;
 }
 
-/*Détail trajet - choix trajet*/
+/***************************************Détail trajet - choix trajet*******************************************/
 .detailTrajet {
 
     vertical-align: center;
@@ -508,6 +508,65 @@ a i{
     vertical-align: center;
     margin-bottom: 2%;
 }
+
+.bulleCommentaire{
+    display: flex;
+    border: 2px solid #CFCFCF;
+    border-radius: 100px;
+    padding: 15px 50px 15px 15px;
+    
+}
+
+.bulleCommentaire:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.bulleCommentaire .champsAvis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%
+    
+}
+
+.bulleCommentaire p:first-child{
+    text-align: left;
+    margin-top: 0;
+}
+
+.bulleCommentaire .desc{
+    margin-top: 0;
+}
+
+.bulleCommentaire .nomNote{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bulleCommentaire .fa-user-circle{
+   font-size: 5em;
+    color: #CFCFCF;
+    margin-right: 20px;
+}
+
+.etoile2{
+    width: 42em;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+.etoile2 .fa-star{
+    padding: 0.5em;
+}
+.nomUser{
+    margin-left: 7em;
+    z-index: 2;
+    position: relative;
+    top: 40px;
+    left: 7px;
+    font-family: 'Lato', sans-serif;
+}
+
 
 /*---------------------CGU-----------------------*/
 .cgu{
@@ -1210,61 +1269,6 @@ footer a {
 }
 
 
-/***************************************bulle commentaire**************************************************/
-.bulleCom{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #CFCFCF;
-    height: 30px;
-    max-width: 50em;
-    font-family: 'Lato';
-    font-size: 14px;  
-    padding: 20px 0px 20px 20px;
-    border-radius: 30px;
-    position: relative;
-    left: 5%;
-    top: 0em;
-}
-
-.bulleCom p:first-child{
-    text-align: left;
-    margin-top: 5px;
-}
-
-.bulleCom p:nth-child(2){
-    margin: 5px 0 0 0;
-    width: 30em;
-    display: flex;
-    justify-content: flex-end;
-    align-self: center;
-}
-
-
-.bulleCom .fa-user-circle{
-    position: absolute;
-    z-index: 2;
-    color: dimgrey;
-    top: 0.15em;
-    margin-right: 0;
-}
-.etoile2{
-    width: 42em;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 1em;
-}
-.etoile2 .fa-star{
-    padding: 0.5em;
-}
-.nomUser{
-    margin-left: 7em;
-    z-index: 2;
-    position: relative;
-    top: 40px;
-    left: 7px;
-    font-family: 'Lato', sans-serif;
-}
 
 
 /*************************************************************NOUS CONTACTER****************************************************/
