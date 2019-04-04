@@ -1189,17 +1189,34 @@ footer a {
 
 /*************************************************************NOUS CONTACTER****************************************************/
 
-.contact .fenetre{
-    display: flex;
-    justify-content: space-between;
+.nousContacter{
+    text-align: center;
 }
 
-.champsContact{
+.nousContacter .fenetre{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nousContacter .contact{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    
+    
 }
 
-.message input{
-    width: 45vw;
-    height: 45vh;
+.nousContacter .informationMail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+
+.nousContacter .message{
+    margin-top: 15px;
+    font-size: 20px;
+    
+    
 }
