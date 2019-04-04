@@ -93,7 +93,11 @@ p {
     font-family: lato;
     color: black;
 }
-
+.boutonBlanc:hover{
+    cursor: pointer;
+    background-color: #F9E56A;
+    transition: 0.5s;
+}
 
 /*Modèle pour les champs de saisi*/
 .saisie{
@@ -679,10 +683,6 @@ display: flex;
     margin-bottom: 3%;
 }
 
-.rechercher .boutonBlanc:hover{
-    background-color: #CFCFCF;
-    transition: 0.5s;
-}
 .rechercher label {
     color: #505050;
     text-decoration: none;
@@ -753,10 +753,6 @@ display: flex;
     margin-bottom: 3%;
 }
 
-.proposer .boutonBlanc:hover{
-    background-color: #CFCFCF;
-    transition: 0.5s;
-}
 .proposer label {
     color: #505050;
     text-decoration: none;
