@@ -31,39 +31,54 @@
     <nav>
     </nav>
 
-    <main>
+   <main>
         <section class="inscription">
             <h2> A propos de vous...</h2>
             <div class="fenetre">
                 <form action="" method="get">
+                    <fieldset>
+                        <label for="nom"></label>
+                        <input class="saisie" type="text" id="nom" placeholder="Nom" name="nom" required />
+                    </fieldset>
+                    <fieldset>
+                        <label for="prenom"></label>
+                        <input class="saisie" type="text" id="prenom" placeholder="Prenom" name="prenom" required />
+                    </fieldset>
+                    <fieldset>
+                        <label for="adresseMail"></label>
+                        <input class="saisie" type="email" id="adresseMail" placeholder="Adresse Mail" name="adresseMail" required />
+                    </fieldset>
+                    <fieldset>
+                        <label for="numTel"></label>
+                        <input class="saisie" type="tel" id="numTel" placeholder="Numéro de téléphone" name="numTel" required />
+                    </fieldset>
+                    <fieldset class="aCenter">
+                        <label for="dateNaissance">date de naissance:</label>
+                        <input class="calendrier" type="date" id="dateNaissance" name="dateNaissance" required />
+                    </fieldset>
+                    <div class="aligner">
                         <fieldset>
-                            <label for="nom"></label>
-                            <input class="saisie" type="text" id="nom" placeholder="Nom" name="nom" required />
+                            <input type="radio" id="sexef" name="genre" value="femme" />
+                            <label for="sexef">femme</label>
                         </fieldset>
                         <fieldset>
-                            <label for="prenom"></label>
-                            <input class="saisie" type="text" id="prenom" placeholder="Prenom" name="prenom" required />
+                            <input type="radio" id="sexeh" name="genre" value="homme" />
+                            <label for="sexeh">homme</label>
                         </fieldset>
                         <fieldset>
-                            <label for="adresseMail"></label>
-                            <input class="saisie" type="email" id="adresseMail" placeholder="Adresse Mail" name="adresseMail" required />
+                            <input type="radio" id="sexeA" name="genre" value="autre" />
+                            <label for="sexeA">autre</label>
                         </fieldset>
-                        <fieldset>
-                            <label for="numTel"></label>
-                            <input class="saisie" type="tel" id="numTel" placeholder="Numéro de téléphone" name="numTel" required />
-                        </fieldset>
-                        <fieldset class="aCenter">
-                            <label for="dateNaissance">date de naissance</label>
-                            <input class="calendrier" type="date" id="dateNaissance" placeholder="dateNaissance" name="dateNaissance" required />
-                        </fieldset>
-                        <fieldset>
-                            <label for="mdp"></label>
-                            <input class="saisie" type="password" id="mdp" placeholder="mot de passe" name="mdp" required />
-                        </fieldset>
-                        <fieldset>
-                            <label for="confirmationMdp"></label>
-                            <input class="saisie" type="password" id="confirmationMdp" placeholder="confirmez votre mot de passe" name="confirmationMdp" required />
-                        </fieldset>
+                    </div>
+                    <fieldset>
+                        <label for="mdp"></label>
+                        <input class="saisie" type="password" id="mdp" placeholder="mot de passe" name="mdp" required />
+                    </fieldset>
+                    <fieldset>
+                        <label for="confirmationMdp"></label>
+                        <input class="saisie" type="password" id="confirmationMdp" placeholder="confirmez votre mot de passe" name="confirmationMdp" required />
+                    </fieldset>
+                    <div class="aligner">
                         <fieldset class="aCenter">
                             <input type="checkbox" id="passager" name="passager" required />
                             <label for="passager"> passager</label>
@@ -72,10 +87,11 @@
                             <input type="checkbox" id="conducteur" name="conducteur" required />
                             <label for="conducteur"> conducteur </label>
                         </fieldset>
-                        <fieldset>
-                            <label for="modeleVoiture"></label>
-                            <input class="saisie" type="text" id="modeleVoiture" name="modèleVoiture" placeholder="modèle de la voiture" required />
-                        </fieldset>
+                    </div>
+                    <fieldset>
+                        <label for="modeleVoiture"></label>
+                        <input class="saisie" type="text" id="modeleVoiture" name="modèleVoiture" placeholder="modèle de la voiture" required />
+                    </fieldset>
                         <fieldset class="aCenter">
                             <label for="nbPlaces">places disponible</label>
                             <select id="nbPlaces" name="nbPlaces" title="placesdispo" class="liste">
@@ -87,13 +103,17 @@
                                 <option value="6">6</option>
                                 <option value="7">7</option>
                             </select>
+                            </fieldset>
+                    <fieldset>
+                            <label for="couleurVoiture"></label>
+                            <input class="saisie" type="text" id="couleurVoiture" name="couleurVoiture" placeholder="couleur de la voiture" required />
                         </fieldset>
-                        <fieldset class="aCenter">
-                            <input class="saisie" type="checkbox" id="conditionsUtilisation" placeholder="Numéto de téléphone" name="conditionsUtilisation" required />
-                            <label for="conditionsUtilisation">Accepter les <a href="CGU.html">conditions d'utilisations</a></label>
-                        </fieldset>
+                    <fieldset class="aCenter">
+                        <input type="checkbox" id="conditionsUtilisation" placeholder="Numéto de téléphone" name="conditionsUtilisation" required />
+                        <label for="conditionsUtilisation">Accepter les <a href="CGU.html">conditions d'utilisations</a></label>
+                    </fieldset>
                 </form>
-                    </div>
+            </div>
             <div class="boutonValider">
                 <button class="boutonBlanc">Valider</button>
             </div>
