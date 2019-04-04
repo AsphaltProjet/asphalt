@@ -886,7 +886,6 @@ display: flex;
 
 .detailCarte{
     display: flex;
-    flex-direction: ;
     justify-content: space-between;
 }
 
