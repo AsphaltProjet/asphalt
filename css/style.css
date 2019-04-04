@@ -886,6 +886,13 @@ display: flex;
     color: #31393D;
     padding-top: 50%
 }
+
+.rechercher .lieux i:active{
+    transform: rotate(360deg);
+    transform-origin: center;
+    transition: 400ms;
+}
+
 .rechercher .favoris{
     display: flex;
     flex-direction: row;
