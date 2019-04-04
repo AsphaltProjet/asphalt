@@ -376,6 +376,15 @@ a i{
     margin-top: 0;
     font-size: 25px;
 }
+.detailTrajet h3 a{
+    color:#505050;
+}
+.detailTrajet .lettrePrenom{
+    color:#F56A42;
+}
+.detailTrajet .lettreNom{
+    color:#45BE6F;
+}
 
 .detailTrajet .fenetre {
     font-family: 'lato';
