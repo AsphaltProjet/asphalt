@@ -567,8 +567,9 @@ color: #505050;
 }
 
 .adresseTrajet{
-    text-align: justify
+    text-align: justify;
 }
+
 
 /*****************************************Liste trajet**********************************************/
 .choixTrajet .fenetre{
