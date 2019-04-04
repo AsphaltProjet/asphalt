@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <body>
@@ -35,56 +37,70 @@
             <h2>Votre choix de trajet :</h2>
             <div class="fenetre">
                 <h3><a href="profilUtilisateur.html"><i class="fas fa-user-circle"></i> <strong class="lettrePrenom">P</strong>aul <strong class="lettreNom">D</strong>urand</a></h3>
+                <div class="Info">
+                    <div class="detailInfo">
+                        <div class="localisation">
+                            <p>De :</p>
+                            <div class="champRempli">Laval - 17 Rue des lilas</div>
+                            <p>Vers :</p>
+                            <div class="champRempli">Laval - Campus IUT</div>
+                        </div>
 
-                <div class="localisation">
-                    <p>De :</p>
-                    <div class="champRempli">Laval - 17 Rue des lilas</div>
-                    <p>Vers :</p>
-                    <div class="champRempli">Laval - Campus IUT</div>
-                </div>
-
-                <div class="date">
-                    <p>Le :</p>
-                    <div class="champRempli">15 / 08 / 2019</div>
-                </div>
-
-
-                <div class="horaires">
-                    <p>Départ à :</p>
-                    <div class="champRempli">8:15</div>
-                    <p>Arrivée à : </p>
-                    <div class="champRempli">8:20</div>
-                </div>
+                        <div class="date">
+                            <p>Le :</p>
+                            <div class="champRempli">15 / 08 / 2019</div>
+                        </div>
 
 
-                <div class="place">
-                    <p>Place restantes : </p>
-                    <div class="champRempli">2 sur 3</div>
+                        <div class="horaires">
+                            <p>Départ à :</p>
+                            <div class="champRempli">8:15</div>
+                            <p>Arrivée à : </p>
+                            <div class="champRempli">8:20</div>
+                        </div>
+
+
+                        <div class="place">
+                            <p>Place restantes : </p>
+                            <div class="champRempli">2 sur 3</div>
+                        </div>
+                    </div>
+                    <div class="carteInfo" id='map'> </div>
                 </div>
             </div>
-
-            <button class="boutonBlanc">Valider</button>
+            <div class="boutonValider">
+                <button class="boutonBlanc">Valider</button>
+            </div>
         </section>
     </main>
     <footer>
-        
-            <div class="lienFoot">
-                <a href="aPropos.html">
-                    <p>A propos</p>
-                </a>
-                <a href="nousContacter.html">
-                    <p>Nous contacter</p>
-                </a>
-                <a href="CGU.html">
-                    <p>CGU- confidentialité</p>
-                </a>
-            </div>
-            <div class="logoFoot">
-                <img src="images/logoGris.png" alt="logo ASPHALT" />
-                <p>ASPHALT</p>
-            </div>
-        </footer>
 
+        <div class="lienFoot">
+            <a href="aPropos.html">
+                <p>A propos</p>
+            </a>
+            <a href="nousContacter.html">
+                <p>Nous contacter</p>
+            </a>
+            <a href="CGU.html">
+                <p>CGU- confidentialité</p>
+            </a>
+        </div>
+        <div class="logoFoot">
+            <img src="images/logoGris.png" alt="logo ASPHALT" />
+            <p>ASPHALT</p>
+        </div>
+    </footer>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYXNwaGFsdCIsImEiOiJjanUyZjN4cDcwYXNuM3lxYzB3NGNnajhmIn0.ePSPIGn9sZiU_Z9nhBhzSA';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/asphalt/cju2kr7700prd1fnai19irl1y',
+            center: [-0.765613, 48.074862],
+            zoom: 12.63
+        });
+    </script>
 </body>
 
 </html>
