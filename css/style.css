@@ -912,12 +912,6 @@ display: flex;
     padding-top: 50%;
 }
 
-.rechercher .lieux i:active{
-    transform: rotate(360deg);
-    transform-origin: center;
-    transition: 400ms;
-}
-
 .rechercher .favoris{
     display: flex;
     flex-direction: row;
@@ -968,7 +962,7 @@ display: flex;
     
 }
 .proposer .lieux i{
-    transform: scale(3);
+    font-size:3.5em;
     color: #31393D;
     padding-top: 50%
 }
