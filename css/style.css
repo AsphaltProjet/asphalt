@@ -1183,6 +1183,15 @@ display: flex;
     text-align: center;
 }
 
+/*----nipas---*/
+
+.inscription h2 a{
+    color:white;
+}
+.inscription h2 a:hover{
+    cursor: default;
+}
+
 /********************************************footer********************************************/
 footer {
     height: 6em;
