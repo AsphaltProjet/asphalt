@@ -905,10 +905,11 @@ display: flex;
     justify-content: space-around;
     
 }
+
 .rechercher .lieux i{
-    transform: scale(3);
+    font-size: 3.5em;
     color: #31393D;
-    padding-top: 50%
+    padding-top: 50%;
 }
 
 .rechercher .lieux i:active{
