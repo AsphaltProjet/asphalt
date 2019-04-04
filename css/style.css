@@ -5,7 +5,7 @@ html{
     min-height: 100vh;
 }
 
-/* CSS DE BASE */
+/********************************************** CSS DE BASE ***********************************/
 body {
     min-height:100vh;
     max-width: 100vw;
@@ -62,23 +62,12 @@ select{
     border-radius: 5px;
 }
 
-/** Peut être pas utile
-p {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #505050;
-    text-align: justify;
-}
-**/
-
 .fenetre {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
-    margin:5%;
+    margin:2% auto;
 }
-
-
 
 /*Exemple de mise en forme de boutons*/
 
@@ -821,37 +810,21 @@ display: flex;
     
     
 /***********************************inscription***************************************************/
-.inscription {
+.inscription .boutonValider{
     text-align: center;
 }
 
 .inscription fieldset{
     border:none;
+    max-width: 400px;
 }
 
-
-/*partie haute du formulaire (nom prrénom)*/
-.inscription .formHaut {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.inscription .formBas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.inscription .saisie{
+    width: 400px;
 }
 
-.inscription .formBasGauche {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.inscription .formBasDroit {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.inscription input {
+    max-width: 100%;
 }
 
 .inscription label {
@@ -861,14 +834,31 @@ display: flex;
 }
 
 .inscription form {
-    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
     margin:auto;
 }
 
+
 .inscription .fenetre {
     max-width: 50vw;
-    margin:auto;
+    margin:2% auto;
 }
+
+.inscription .boutonBlanc{
+    margin:20px 0px 20px 0px;
+}
+
+.inscription a {
+    color:#45BE6F;
+}
+
+.inscription .aCenter{
+    text-align: center;
+}
+
 /********************************************footer********************************************/
 footer {
     height: 8em;
