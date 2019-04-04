@@ -886,13 +886,15 @@ display: flex;
 
 .detailCarte{
     display: flex;
-    flex-direction: row;
+    flex-direction: ;
     justify-content: space-between;
 }
 
 .plusDetail .carte{
-    max-width: 50em;
-    
+    width: 50em;
+    height: 30em;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 
 .plusDetail .localisation{
@@ -915,11 +917,20 @@ display: flex;
     align-items: center;
 }
 
-.plusProposition .champRempli{
+.plusProposition .plusEtape{
     width: 20em;
     height: 15em;
     text-align: center;
 }
+
+.plusProposition .adresseTrajet{
+    margin-top: 1em;
+}
+
+.plusProposition .horaireTrajet{
+    margin-top: 1em;
+}
+
 
 /*****************************-------confirmation inscription------------********************************/
 
