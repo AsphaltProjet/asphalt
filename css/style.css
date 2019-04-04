@@ -77,8 +77,20 @@ select{
     padding: 30px;
     border-radius: 10px;
     margin:2% auto;
+    animation: apparition 0.5s ease-out backwards;
 }
-
+@keyframes apparition{
+    0%{
+        opacity: 0;
+        transform: translateX(20%);
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 /*Exemple de mise en forme de boutons*/
 
 /*Pour les boutons valider*/
@@ -91,6 +103,7 @@ select{
     background-color: white;
     font-family: lato;
     color: black;
+    animation: apparitionBoutons 0.5s 0.5s ease-out backwards;
 }
 .boutonBlanc:hover{
     cursor: pointer;
@@ -129,6 +142,7 @@ select{
     font-family: lato;
     height: 30px;
     color: black;
+    animation: apparitionBoutons 0.5s 0.5s ease-out backwards;
 }
 .boutonGris:hover{
     cursor: pointer;
@@ -146,6 +160,16 @@ select{
     font-family: lato;
     height: 30px;
     color: white;
+    animation: apparitionBoutons 0.5s 0.5s ease-out backwards;
+}
+@keyframes apparitionBoutons{
+    0%{
+        opacity: 0;
+        transform: translateY(30%);
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .boutonOrange:hover{
     cursor: pointer;
@@ -882,7 +906,7 @@ display: flex;
     
 }
 .rechercher .lieux i{
-    font-size:3.5em;
+    transform: scale(3);
     color: #31393D;
     padding-top: 50%
 }
@@ -943,17 +967,10 @@ display: flex;
     
 }
 .proposer .lieux i{
-    font-size: 3.5em;
+    transform: scale(3);
     color: #31393D;
     padding-top: 50%
 }
-
-.proposer .lieux i:active{
-    transform: rotate(360deg);
-    transform-origin: center;
-    transition: 400ms;
-}
-
 .proposer .favoris{
     display: flex;
     flex-direction: row;
