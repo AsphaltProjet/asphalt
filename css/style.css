@@ -617,10 +617,11 @@ color: #505050;
 /*--------------------A propos-------------------*/
 .aPropos .fenetreG {
     max-width: 50vw;
+    min-width: 20vw;
     margin: 2% auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .aPropos .fenetreG p {
