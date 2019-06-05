@@ -32,33 +32,37 @@
         <section class="rechercher">
             <h2>Où voulez-vous aller ?</h2>
             <div class="fenetre">
-                <form>
-                    <div class="lieux">
-                        <fieldset class="gauche">
-                            <label for="lieuDepart">Lieu de départ</label>
-                            <br>
-                            <input type="text" id="lieuDepart" class="saisie" placeholder="Laval, 17 rue des lilas ..." name="lieuDepart" required />
-                        </fieldset>
-                        <fieldset>
-                            <i class="fas fa-exchange-alt"></i>
-                        </fieldset>
-                        <fieldset class="droite">
-                            <label for="lieuArrivee">Lieu d'arrivée</label>
-                            <br>
-                            <input type="text" id="lieuArrivee" class="saisie" placeholder="Laval, Campus de Laval..." name="lieuArrivee" required />
-                        </fieldset>
+                <form action="recherche.php" method="get">
+                    <div class="rechercheRow">
+                        <div class="rechercheGauche">
+                            <fieldset class="gauche">
+                                <label for="lieuDepart">Lieu de départ</label>
+                                <br>
+                                <input type="text" id="lieuDepart" class="saisie" placeholder="Laval, 17 rue des lilas ..." name="lieuDepart" required />
+                            </fieldset>
+                            <fieldset class="depart">
+                                <input type="checkbox" id="lieuDepartFavori" name="lieuDepartFavori" />
+                                <label for="lieuDepartFavori">[Lieu de départ favori]</label>
+                            </fieldset>
+                        </div>
+                        <div class="fleche">
+                            <fieldset>
+                                <i class="fas fa-exchange-alt"></i>
+                            </fieldset>
+                        </div>
+                        <div class="rechercheDroite">
+                            <fieldset class="droite">
+                                <label for="lieuArrivee">Lieu d'arrivée</label>
+                                <br>
+                                <input type="text" id="lieuArrivee" class="saisie" placeholder="Laval, Campus de Laval..." name="lieuArrivee" required />
+                            </fieldset>
+                            <fieldset class="arrivee">
+                                <input type="checkbox" id="lieuArriveeFavori" name="lieuArriveeFavori" />
+                                <label for="lieuArriveeFavori">[Lieu d'arrivée favori]</label>
+                            </fieldset>
+                        </div>
                     </div>
-                    <div class="favoris">
-                        <fieldset class="depart">
-                            <input type="checkbox" id="lieuDepartFavori" name="lieuDepartFavori" />
-                            <label for="lieuDepartFavori">[Lieu de départ favori]</label>
-                        </fieldset>
-                        <fieldset class="arrivee">
-                            <input type="checkbox" id="lieuArriveeFavori" name="lieuArriveeFavori" />
-                            <label for="lieuArriveeFavori">[Lieu d'arrivée favori]</label>
-                        </fieldset>
-                    </div>
-                    <div class="horaire">
+                    <div class="horaireDate">
                         <div class="timing">
                             <div>
                                 <label for="heure">Horaire de départ</label>
@@ -90,7 +94,7 @@
                                 </select>
                             </div>
                             <div>
-                                <label for="minute">:</label>
+                                <label for="minute" class="deuxPoint">:</label>
                                 <select id="minute" name="minute" title="Minute" class="liste">
                                     <option selected="selected" value="0">00</option>
                                     <option value="10">10</option>
@@ -101,16 +105,17 @@
                                 </select>
                             </div>
                         </div>
-                        <div >
+                        <div>
                             <label for="date">Date</label>
                             <input class="calendrier" type="date" id="date" />
                         </div>
                     </div>
-
                 </form>
             </div>
             <div class="boutonRecherche">
-                <a href="listeTrajets.html"> <button class="boutonBlanc">Rechercher</button></a>
+                <a href="listeTrajets.html">
+                    <button class="boutonBlanc">Rechercher</button>
+                </a>
             </div>
         </section>
     </main>
