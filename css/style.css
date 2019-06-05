@@ -593,113 +593,137 @@ a i{
     margin-right: 2em;
 }
 /*----------------PROFIL PERSO---------*/
-.profilPerso h3 {
-    color: #505050;
-    text-align: left;
-}
-
-.profilPerso .infos {
-    color: #31393D;
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.profilPerso .infos2 {
-    color: #31393D;
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .profilPerso .fenetre {
     max-width: 40vw;
-    margin: 2% auto;
     display: flex;
+    text-align: justify;
+    padding: 2%;
+    ;
     flex-direction: column;
-    justify-content: center;
 }
 
-.profilPerso .champRempli {
-    margin-right: 10px;
-    margin-left: 10px;
+.photoProfil {
+    border-radius: 100%;
+    max-height: 120px;
+    margin: 15px
 }
 
-.profilPerso .boutonHaut{
+.profilPerso h3 {
+    margin-bottom: 10px;
+    vertical-align: center;
+}
+
+.profilPerso p {
+    color: #505050;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+
+.profilPerso .chiffre {
+    margin: auto;
+}
+
+.profilPerso .chiffre p {
+    margin: 0;
+    text-align: left;
+}
+
+
+.informationProfil {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}
-.profilPerso .boutonHaut a:last-child{
-    margin-left: 4%;
-}
-.profilPerso{
-    text-align: center;
-    vertical-align: center;
-    margin-bottom: 2%;
 }
 
-.bulleCommentaire{
+.profilPerso .planete img {
+    max-width: 200px;
+}
+
+.presentationMembre {
     display: flex;
-    border: 2px solid #CFCFCF;
-    border-radius: 100px;
-    padding: 15px 50px 15px 15px;
-    
+    justify-content: flex-start;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
-.bulleCommentaire:not(:last-child){
-    margin-bottom: 20px;
+.etoile{
+    font-size: 1.5em;
 }
 
-.bulleCommentaire .champsAvis{
+
+
+.profilPerso .badge {
+    margin: 2px;
+    height: 70px;
+}
+
+
+.identiteMembre .nom {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.identiteMembre {
+    margin: auto;
+}
+
+.presentationMembre i {
+    display: flex;
+    margin-right: 10px;
+    font-size: 80px;
+}
+
+.infosMembre {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.informationProfil {
+    display: flex;
+    flex-direction: row;
+}
+
+.infosMembre {
+    margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 100%
-    
+
 }
 
-.bulleCommentaire p:first-child{
-    text-align: left;
-    margin-top: 0;
+
+.informationProfil .fa-angle-down {
+    font-size: 3em;
+    color: #31393D;
 }
 
-.bulleCommentaire .desc{
-    margin-top: 0;
-}
-
-.bulleCommentaire .nomNote{
+.infosMembre .chiffre {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.bulleCommentaire .fa-user-circle{
-   font-size: 5em;
-    color: #CFCFCF;
-    margin-right: 20px;
-}
-
-.etoile2{
-    width: 42em;
+.gamification {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 1em;
+    flex-direction: column;
+    margin: auto;
 }
-.etoile2 .fa-star{
-    padding: 0.5em;
+
+
+
+.unCommentaire {
+    border: solid 2px #CFCFCF;
+    border-radius: 20px;
+    padding: 5px 15px 7px 15px;
+    margin: 10px;
 }
-.nomUser{
-    margin-left: 7em;
-    z-index: 2;
-    position: relative;
-    top: 40px;
-    left: 7px;
-    font-family: 'Lato', sans-serif;
+
+.unCommentaire .date {
+    font-size: 10px;
+}
+
+.lesCommentaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
