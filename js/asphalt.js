@@ -4,6 +4,16 @@ function initialiser(evt){
 
   var flecheR= document.getElementById("flecheSwap");
   flecheR.addEventListener("click",swapTexte);
+  
+  let calendrier=$("#datepicker");/*calendrier jquery ui*/
+    calendrier.datepicker({
+       monthNames:["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Aout","Septembre","Octobre","Novembre","Décembre"],
+        dayNames: ["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"],
+       dayNamesMin:["Di", "Lu", "Ma", "Me", "Je", "Ve", "Sa"],
+        dateFormat:"dd-mm-yy",
+        firstDay: 1
+    });
+   
 
 }
 
