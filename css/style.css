@@ -1008,8 +1008,7 @@ display: flex;
  }
 
 .rechercher .fenetre{
-    max-width: 80vw;
-    min-width: 60vw;
+    max-width: 75vw;
     margin: 2% auto;
  }
 
@@ -1084,12 +1083,10 @@ display: flex;
 }
 
 .proposer .fenetre{
-    max-width: 80vw;
-    min-width: 60vw;
+    max-width: 75vw;
     margin: 2% auto;
  }
  
-
 /******************************** plusDetail *************************************/
 
 .plusDetail h3 {
