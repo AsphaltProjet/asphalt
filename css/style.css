@@ -105,6 +105,11 @@ select{
     color: black;
     animation: apparitionBoutons 0.5s 0.5s ease-out backwards;
 }
+
+.boutonBlanc a{
+    text-decoration: none;
+    color: black;
+}
 .boutonBlanc:hover{
     cursor: pointer;
     background-color: #F9E56A;
