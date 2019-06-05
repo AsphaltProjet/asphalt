@@ -1299,3 +1299,34 @@ display: flex;
     
     
 }
+
+
+/*NOTES ETOILES*/
+
+.rating {
+  display: block;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-align: center;
+}
+.rating .star {
+  display: none;
+}
+.rating label {
+  color: #CFCFCF;
+  display: inline-block;
+  font-size: 25pt;
+  margin: 0 -2px;
+  transition: transform .15s ease;
+}
+.rating label:hover {
+  transform: scale(1.35, 1.35);
+}
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #F9E56A;
+}
+.rating .star:checked ~ label {
+  color: #F9E56A;
+}
+
