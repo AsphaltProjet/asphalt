@@ -609,7 +609,7 @@ a i{
     margin-left: 2em;
     margin-right: 2em;
 }
-/*----------------PROFIL PERSO---------*/
+/*----------------PROFIL UTILISATEUR ET PERSO---------*/
 .profilPerso{
     text-align: center;
     margin: 2%;
@@ -660,6 +660,13 @@ a i{
     max-width: 200px;
 }
 
+.planete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto
+}
+
 .presentationMembre {
     display: flex;
     justify-content: flex-start;
@@ -684,6 +691,12 @@ a i{
     margin: auto;
 }
 
+.identiteMembre .etoile{
+    font-size: 0.8em;
+    display: flex;
+    justify-content: flex-start;
+    
+}
 
 .informationProfil {
     display: flex;
@@ -728,7 +741,13 @@ a i{
     align-items: center;
 }
 
+.presentationMembre .etoile i:first-child{
+    padding-left: 0;
+}
 
+.presentationMembre .etoile{
+    margin-bottom: 0;
+}
 
 
 /*---------------------CGU-----------------------*/
