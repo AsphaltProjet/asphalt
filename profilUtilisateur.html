@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
-    <!-- liens pour pouvoir utiliser icones fontawesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 
 
@@ -19,80 +19,114 @@
     <header>
         <div>
             <a href="index.html" title="page d'accueil"><img src="images/logoAsphalt.png" alt="logo d'Asphalt" /></a>
-            <a href="index.html" title="page d'accueil"><h1>ASPHALT</h1></a>
+            <a href="index.html" title="page d'accueil">
+                <h1>ASPHALT</h1>
+            </a>
         </div>
         <nav>
             <ul>
-                <li><a href="rechercheTrajet.html">rechercher</a></li>
-                <li><a href="proposerTrajet.html">proposer</a></li>
-                <li><a href="inscription">inscription</a></li>
-                <li><a href="connexion.html">connexion</a></li>
+                <li><a href="rechercheTrajet.html">Rechercher</a></li>
+                <li class="pageActuel"><a href="proposerTrajet.html">Proposer</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
             </ul>
         </nav>
     </header>
 
-    <nav>
-
-    </nav>
-
     <main>
-        <section class="sectionUser">
-                <h2><i class="fas fa-user-circle"></i>Paul Durant</h2>
+        <section class="profilPerso">
+            <h2> En savoir plus sur un membre ?</h2>
             <div class="fenetre">
-                <div class="top">
-                <div class="topH3">
-                <h3>Age :</h3>
-                <h3>Nombre de trajets :</h3>
-                <h3>Voiture :</h3>
-                </div>
-                <button class="boutonContacter">Contacter</button>
-                </div>
-                <p class="bioUser">Hey ! Moi c'est Paul je suis étudiant à l'IUT !</p>
-                <div class="etoile">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <div>
-                <p class="nomUser">Julie Dubois 19</p>
-                <div class="bulleCom">
-                    <div>
-                    <i class="fas fa-user-circle"></i>
-                    <p>C'était vraiment super chouette youhou !!</p>
-                    </div>
-                    <div class="etoile2">
+
+
+                <div class="presentationMembre">
+
+                    <img src="images/testProfil.jpg" class="photoProfil" alt="photoProfil" />
+                    <div class="identiteMembre">
+                        <p class="nom">Xavier Clément</p>
+                        <div class="etoile">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </div>
+                        <p>Conducteur - Passager</p>
+                        <p>Clio 4 - Gris</p>
+                        
+                        
+                    
+                    
+                </div>
+                </div>
+
+
+
+                <div class="informationProfil">
+                    <div class="infosMembre">
+                        <div class="chiffre">
+                            <h3>Ses statistiques :</h3>
+                            <p>Nombre de km effectués : 30 km</p>
+                            <p>Nombre de covoiturage : 15</p>
+                            
+                        </div>
+                        <div class="lesCommentaires">
+                            <h3>Ses avis</h3>
+                            <div class="unCommentaire">
+                                <p><strong>Paul Durant</strong></p>
+                                <p>Trajets ponctuels et agréables ! </p>
+                                <p class="date">20/05/2019</p>
+                            </div>
+                            <div class="unCommentaire">
+                                <p><strong>Paul Durant</strong></p>
+                                <p>Trajets ponctuels et agréables ! </p>
+                                <p class="date">20/05/2019</p>
+                            </div>
+
+                            <i class="fas fa-angle-down"></i>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="gamification">
+                        <div class="mesBadges">
+                            <h3>Ses récompenses</h3>
+                            <img src="images/badge.png" class="badge" alt="badge1">
+                            <img src="images/badge.png" class="badge" alt="badge1">
+                            <img src="images/badge.png" class="badge" alt="badge1">
+
+                        </div>
+
+                        <div class="planete">
+                            <h3>Sa planète</h3>
+                            <img src="images/planete.png" alt="la planète">
+                        </div>
                     </div>
                 </div>
             </div>
+
+
         </section>
     </main>
+
     <footer>
-        <footer>
-            <div class="lienFoot">
-                <a href="aPropos.html">
-                    <p>A propos</p>
-                </a>
-                <a href="nousContacter.html">
-                    <p>Nous contacter</p>
-                </a>
-                <a href="CGU.html">
-                    <p>CGU- confidentialité</p>
-                </a>
-            </div>
-            <div class="logoFoot">
-                <img src="images/logoGris.png" alt="logo ASPHALT" />
-                <p>ASPHALT</p>
-            </div>
-        </footer>
+        <div class="lienFoot">
+            <a href="aPropos.html">
+                <p>A propos</p>
+            </a>
+            <a href="nousContacter.html">
+                <p>Nous contacter</p>
+            </a>
+            <a href="CGU.html">
+                <p>CGU- confidentialité</p>
+            </a>
+        </div>
+        <div class="logoFoot">
+            <img src="images/logoGris.png" alt="logo ASPHALT" />
+            <p>ASPHALT</p>
+        </div>
     </footer>
 </body>
-
 </html>
