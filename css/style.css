@@ -1028,7 +1028,7 @@ display: flex;
  }
 
 .rechercher .fenetre{
-    max-width: 75vw;
+    max-width: 750px;
     margin: 2% auto;
  }
 
@@ -1111,7 +1111,7 @@ display: flex;
 }
 
 .proposer .fenetre{
-    max-width: 75vw;
+    max-width: 750px;
     margin: 2% auto;
  }
  
