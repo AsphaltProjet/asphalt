@@ -23,7 +23,9 @@ function initialiser(evt){
     
     let fleche=$("#fleche");
     fleche.click(afficherCom);
-    
+  
+    let valider = $("#valider");
+    valider.click(validerTrajet);
 }
 function swapTexte(evt){
     var depart    = document.getElementById("lieuDepart");
@@ -43,5 +45,10 @@ $('.star').on('change', function() {
     deuxiemeCom.nextAll("div").css("display","block");
         $("#fleche").css("visibility", "hidden");
 } 
+  
+  function validerTrajet(evt){
+        let valider = $(this);
+        valider.attr('fas','far');
+    }
 
 }());
