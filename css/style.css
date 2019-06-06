@@ -1317,12 +1317,6 @@ display: flex;
     text-align: center;
 }
 
-.nousContacter .fenetre{
-    display: flex;
-    flex-direction: row;
-    
-}
-
 .nousContacter .contact{
     display: flex;
     flex-direction: column;
@@ -1333,17 +1327,41 @@ display: flex;
 .nousContacter .informationMail{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: -10px;
+    justify-content: space-around;
+    margin-left: -100px;
 }
 
 .nousContacter .message{
     margin-top: 15px;
-    font-size: 20px;
-    
-    
+    font-size: 20px;  
 }
 
+.nousContacter .fenetreD{
+    min-width: 575px;
+}
+
+.nousContacter .fenetreD .reseaux {
+    font-family: 'Passion One', cursive;
+    font-size: 30px;
+    color: #505050;
+    display: flex;
+    flex-direction: row;
+}
+
+.nousContacter .reseaux div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.nousContacter .reseaux div i {
+    transform: scale(2);
+}
+
+.nousContacter .reseaux div p {
+    margin-left: 10%;
+}
 
 /*NOTES ETOILES*/
 
