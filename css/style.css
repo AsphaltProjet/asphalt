@@ -1263,10 +1263,12 @@ display: flex;
 .inscription .fenetre {
     max-width: 430px;
     margin:2% auto;
+    min-width: 550px;  
+    display: flex;
 }
 
 .inscription .boutonBlanc{
-    margin:20px 0px 20px 0px;
+    margin:0px 0px 20px 0px;
 }
 
 .inscription a {
