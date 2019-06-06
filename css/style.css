@@ -89,20 +89,8 @@ select{
     padding: 30px;
     border-radius: 10px;
     margin:2% auto;
-    animation: apparition 0.5s ease-out backwards;
 }
-@keyframes apparition{
-    0%{
-        opacity: 0;
-        transform: translateX(20%);
-    }
-    50%{
-        opacity:1;
-    }
-    100%{
-        opacity: 1;
-    }
-}
+
 /*Exemple de mise en forme de boutons*/
 
 /*Pour les boutons valider*/
@@ -115,7 +103,6 @@ select{
     background-color: white;
     font-family: lato;
     color: black;
-    animation: apparitionBoutons 0.5s 0.5s ease-out backwards;
 }
 
 .boutonBlanc a{
@@ -159,7 +146,6 @@ select{
     font-family: lato;
     height: 30px;
     color: black;
-    animation: apparitionBoutons 0.5s 0.5s ease-out backwards;
 }
 .boutonGris:hover{
     cursor: pointer;
@@ -177,9 +163,58 @@ select{
     font-family: lato;
     height: 30px;
     color: white;
-    animation: apparitionBoutons 0.5s 0.5s ease-out backwards;
 }
-@keyframes apparitionBoutons{
+
+.boutonOrange:hover{
+    cursor: pointer;
+    background-color: #AF3512;
+    transition: 0.5s;
+}
+
+/********************************************** ANIMATION ***********************************/
+.appaDroite{
+   animation: apparitionDroite 0.5s 0.5s ease-out backwards;
+}
+@keyframes apparitionDroite{
+    0%{
+        opacity: 0;
+        transform: translateX(30%);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.appaGauche{
+   animation: apparitionGauche 0.5s 0.5s ease-out backwards;
+}
+@keyframes apparitionGauche{
+    0%{
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.appaHaut{
+   animation: apparitionHaut 0.5s 0.5s ease-out backwards;
+}
+@keyframes apparitionHaut{
+    0%{
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.appaBas{
+   animation: apparitionBas 0.5s 0.5s ease-out backwards;
+}
+@keyframes apparitionBas{
     0%{
         opacity: 0;
         transform: translateY(30%);
@@ -188,11 +223,45 @@ select{
         opacity: 1;
     }
 }
-.boutonOrange:hover{
-    cursor: pointer;
-    background-color: #AF3512;
-    transition: 0.5s;
+
+.appaTourne{
+   animation: apparitionTourne 0.5s 0.5s ease-out backwards;
 }
+@keyframes apparitionTourne{
+    0%{
+        opacity: 0;
+        transform: rotate(10deg);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.appaCarte{
+   animation: apparitionCarte 0.5s 0.5s ease-out backwards;
+}
+@keyframes apparitionCarte{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.appa{
+   animation: apparition 0.5s 0.5s ease-out backwards;
+}
+@keyframes apparition{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 /************************************* Header et Nav ************************************************/
 
 header {
