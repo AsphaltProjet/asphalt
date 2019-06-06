@@ -11,6 +11,18 @@ function initialiser(evt){
         dateFormat:"dd-mm-yy",
         firstDay: 1
     });
+  
+  let nbCom=$("#lesCommentaires div").length;
+    console.log(nbCom);
+    let deuxiemeCom=$("#lesCommentaires div:nth-of-type(2)");
+    
+    if(nbCom>2){
+        deuxiemeCom.nextAll("div").css("display","none");
+        $("#fleche").css("visibility", "visible");
+    }
+    
+    let fleche=$("#fleche");
+    fleche.click(afficherCom);
     
 }
 function swapTexte(evt){
@@ -25,5 +37,11 @@ $('.star').on('change', function() {
   let stars = $(this).val();
   console.log(stars);
 });
+  
+  function afficherCom(evt){
+     let deuxiemeCom=$("#lesCommentaires div:nth-of-type(2)");
+    deuxiemeCom.nextAll("div").css("display","block");
+        $("#fleche").css("visibility", "hidden");
+} 
 
 }());
