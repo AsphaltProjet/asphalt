@@ -886,9 +886,10 @@ color: #505050;
     margin-bottom: 15px;
 }
 
-.unTrajet{
-    display: none;
+.tableauBord .unTrajet{
+    
 }
+
 
 /*****************************************Liste trajet**********************************************/
 .choixTrajet .fenetre{
