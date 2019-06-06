@@ -780,12 +780,8 @@ color: #505050;
 
 /*--------------------A propos-------------------*/
 .aPropos .fenetreG {
-    max-width: 50vw;
+    max-width: 60vw;
     min-width: 20vw;
-    margin: 2% auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 .aPropos .fenetreG p {
@@ -794,47 +790,6 @@ color: #505050;
     text-align: justify;
     font-size: 20x;
     
-}
-
-.aPropos .fenetreD {
-    max-width: 30vw;
-    /*    min-width: 10vw;*/
-    margin: 2% auto;
-}
-
-.aPropos .fenetre2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.aPropos .fenetreG img {
-    transform: scale(0.2);
-}
-
-.aPropos .fenetreD .reseaux {
-    font-family: 'Passion One', cursive;
-    font-size: 30px;
-    color: #505050;
-    display: flex;
-    flex-direction: column;
-}
-
-.aPropos .reseaux div {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    align-items: center;
-    margin-left: 8%;
-}
-
-.aPropos .reseaux div i {
-    transform: scale(2);
-}
-
-.aPropos .reseaux div p {
-    margin-left: 15%;
 }
 /*************************************Tableau de bord************************************************/ 
 .topTableau{
