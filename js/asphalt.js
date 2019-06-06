@@ -1,9 +1,7 @@
+(function(){
 "use strict"; /* oblige à déclarer toute variable utilisée */
 $(document).ready(initialiser);
 function initialiser(evt){
-
-  var flecheR= document.getElementById("flecheSwap");
-  flecheR.addEventListener("click",swapTexte);
   
   let calendrier=$("#datepicker");/*calendrier jquery ui*/
     calendrier.datepicker({
@@ -13,10 +11,8 @@ function initialiser(evt){
         dateFormat:"dd-mm-yy",
         firstDay: 1
     });
-   
-
+    
 }
-
 function swapTexte(evt){
     var depart    = document.getElementById("lieuDepart");
     var arrivee   = document.getElementById("lieuArrivee");
@@ -27,6 +23,7 @@ function swapTexte(evt){
 
 $('.star').on('change', function() {
   let stars = $(this).val();
-  /* Make an AJAX call to register the rating */
   console.log(stars);
 });
+
+}());
