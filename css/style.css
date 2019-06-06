@@ -1082,28 +1082,12 @@ display: flex;
  }
  
 /******************************** plusDetail *************************************/
-
-.plusDetail h3 {
-    margin-top: 0;
-    font-size: 25px;
-}
-
-.plusDetail .champRempli {
-    border-radius: 10px;
-    display: inline;
-    border: 0;
-    height: 15px;
-    background-color: #CFCFCF;
-    font-family: 'lato';
-}
-
 .plusDetail .fenetre {
     font-family: 'lato';
     display: flex;
     flex-direction: column;
-    max-width: 70em;
+    max-width: 60em;
     margin: 2% auto;
-    min-width: 500px;
 }
 
 .detailCarte{
@@ -1113,23 +1097,14 @@ display: flex;
 
 .plusDetail .carte{
     width: 50em;
-    height: 30em;
+    height: 33em;
     margin-right: 2em;
     margin-left: 2em;
 }
 
 .plusDetail .localisation{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.plusDetail .localisation p{
-    margin-right: 0.25em;
-}
-
-.plusEspace {
-    margin-right: 1em;
+    flex-direction: column;
 }
 
 .plusProposition{
