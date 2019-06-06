@@ -1041,7 +1041,6 @@ display: flex;
     color: white;
 }
 
-
 /*****************------------------------------rechercher---------------------------***********************/
 .rechercheRow{
     display: flex;
@@ -1072,7 +1071,6 @@ display: flex;
 
 .rechercher{
     text-align: center;
-    display: flex;
     flex-direction: column;
 }
 
@@ -1114,7 +1112,6 @@ display: flex;
 
 .proposer{
     text-align: center;
-    display: flex;
     flex-direction: column;
 }
 
