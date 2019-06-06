@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>ASPHALT</title>
+    <meta name="description" content="??????">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Passion+One" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <header>
+        <div>
+            <a href="index.html" title="page d'accueil"><img src="images/logoAsphalt.png" alt="logo d'Asphalt" /></a>
+            <a href="index.html" title="page d'accueil"><h1>ASPHALT</h1></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="rechercheTrajet.html">Rechercher</a></li>
+                <li><a href="proposerTrajet.html">Proposer</a></li>
+                <li><a href="inscription.html" class="pageActuel">Inscription</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav>
+    </nav>
+
+   <main>
+        <section class="inscription">
+            <h2>Des informations ont changés ? </h2>
+            <div class="fenetre">
+                <form action="" method="get">
+                    <fieldset>
+                        <label for="nom"></label>
+                        <input class="saisie" type="text" id="nom" placeholder="Nom" name="nom" required />
+                    </fieldset>
+                    <fieldset>
+                        <label for="prenom"></label>
+                        <input class="saisie" type="text" id="prenom" placeholder="Prenom" name="prenom" required />
+                    </fieldset>
+                    <fieldset>
+                        <label for="adresseMail"></label>
+                        <input class="saisie" type="email" id="adresseMail" placeholder="Adresse Mail" name="adresseMail" required />
+                    </fieldset>
+                    <fieldset>
+                        <label for="numTel"></label>
+                        <input class="saisie" type="text" id="numTel" placeholder="Numéro de téléphone" name="numTel" required />
+                    </fieldset>
+                    <fieldset class="aCenter">
+                        <label for="dateNaissance">date de naissance:</label>
+                        <input class="calendrier" id="datepicker" name="dateNaissance" required />
+                    </fieldset>
+                    <div class="aligner">
+                        <fieldset>
+                            <input type="radio" id="sexef" name="genre" value="femme" />
+                            <label for="sexef">femme</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="radio" id="sexeh" name="genre" value="homme" />
+                            <label for="sexeh">homme</label>
+                        </fieldset>
+                        <fieldset>
+                            <input type="radio" id="sexeA" name="genre" value="autre" />
+                            <label for="sexeA">autre</label>
+                        </fieldset>
+                    </div>
+                    <fieldset>
+                        <label for="mdp"></label>
+                        <input class="saisie" type="password" id="mdp" placeholder="mot de passe" name="mdp" required />
+                    </fieldset>
+                    <fieldset>
+                        <label for="confirmationMdp"></label>
+                        <input class="saisie" type="password" id="confirmationMdp" placeholder="confirmez votre mot de passe" name="confirmationMdp" required />
+                    </fieldset>
+                    <div class="aligner">
+                        <fieldset class="aCenter">
+                            <input type="checkbox" id="passager" name="passager" />
+                            <label for="passager"> passager</label>
+                        </fieldset>
+                        <fieldset class="aCenter">
+                            <input type="checkbox" id="conducteur" name="conducteur" />
+                            <label for="conducteur"> conducteur </label>
+                        </fieldset>
+                    </div>
+                    <fieldset>
+                        <label for="modeleVoiture"></label>
+                        <input class="saisie" type="text" id="modeleVoiture" name="modèleVoiture" placeholder="modèle de la voiture" />
+                    </fieldset>
+                        <fieldset class="aCenter">
+                            <label for="nbPlaces">places disponible</label>
+                            <select id="nbPlaces" name="nbPlaces" title="placesdispo" class="liste">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                            </fieldset>
+                    <fieldset>
+                            <label for="couleurVoiture"></label>
+                            <input class="saisie" type="text" id="couleurVoiture" name="couleurVoiture" placeholder="couleur de la voiture" />
+                        </fieldset>
+                    <fieldset class="aCenter">
+                        <input type="checkbox" id="conditionsUtilisation" placeholder="Numéto de téléphone" name="conditionsUtilisation" required />
+                        <label for="conditionsUtilisation">Accepter les <a href="CGU.html">conditions d'utilisations</a></label>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="boutonValider">
+                <a href="confirmationInscription.html"><button class="boutonBlanc">Enregistrer</button></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="lienFoot">
+            <a href="aPropos.html">
+                <p>A propos</p>
+            </a>
+            <a href="nousContacter.html">
+                <p>Nous contacter</p>
+            </a>
+            <a href="CGU.html">
+                <p>CGU- confidentialité</p>
+            </a>
+        </div>
+        <div class="logoFoot">
+           <img src="images/logoGris.png" alt="logo ASPHALT" />
+            <p>ASPHALT</p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/asphalt.js"></script>
+</body>
+
+</html>
+
 
