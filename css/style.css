@@ -944,6 +944,20 @@ color: #505050;
     text-align: justify;
 }
 
+.avisTableau .rating{
+    margin-bottom: 1%;
+}
+
+.pasDeTrajet{
+    border: solid 2px #CFCFCF;
+    border-radius: 30px;
+    padding: 0px 15px 1px 15px;
+    margin-bottom: 15px;
+}
+
+.unTrajet{
+    display: none;
+}
 
 /*****************************************Liste trajet**********************************************/
 .choixTrajet .fenetre{
