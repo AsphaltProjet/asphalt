@@ -1190,14 +1190,9 @@ display: flex;
     margin-top: 1em;
 }
 
-
 /*****************************-------confirmation inscription------------********************************/
 
-
 .confirmationInscription{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     text-align: center;
 }
 
@@ -1219,6 +1214,7 @@ display: flex;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     text-align: justify;
+    margin-top: -0px;
     padding: 0% 5% 0% 5%;
 }    
     
