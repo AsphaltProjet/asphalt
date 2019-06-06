@@ -465,6 +465,7 @@ footer i {
     max-width: 550px;
     padding-right: 5%;
     padding-left: 5%;
+    padding-top: 0;
 }
 
 .connexionFormulaire div{
