@@ -747,6 +747,10 @@ footer i {
     align-items: center;
 }
 
+.lesCommentaires #fleche{
+    visibility: hidden;
+}
+
 .presentationMembre .etoile i:first-child{
     padding-left: 0;
 }
