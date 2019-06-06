@@ -2,6 +2,8 @@
 "use strict"; /* oblige à déclarer toute variable utilisée */
 $(document).ready(initialiser);
 function initialiser(evt){
+  var swapFleche    = document.getElementById("flecheSwap");
+  swapFleche.addEventListener("click",swapTexte);
   
   let calendrier=$("#datepicker");/*calendrier jquery ui*/
     calendrier.datepicker({
