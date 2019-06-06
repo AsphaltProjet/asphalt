@@ -448,23 +448,20 @@ footer a {
 
 .lienMdp{
     color: black;
-    text-decoration: none;
     font-family: 'Lato', sans-serif;
-    font-size: 0.9em;
     margin-bottom: 1.4em;
 }
 
 .connexionFormulaire .fenetre{
-    max-width: 50em;
-    margin: 2% auto;
+    max-width: 550px;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .connexionFormulaire div{
     display: flex;
     flex-direction: column;
     align-items: : center;
-    padding-left: 7em;
-    padding-right: 7em;
 }
 
 a i{
