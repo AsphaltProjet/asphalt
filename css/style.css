@@ -765,7 +765,7 @@ color: #505050;
 }
 
 .tableauBord .fenetre{
-    width: 50vw;
+    max-width: 45vw;
     margin: 2% auto;
     min-width: 800px;    
 }
