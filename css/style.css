@@ -528,12 +528,14 @@ footer i {
 }
 
 .lienMdp{
+    animation: apparition 0.5s 2s ease-out backwards;
     color: black;
     font-family: 'Lato', sans-serif;
     margin-bottom: 1.4em;
 }
 
 .connexionFormulaire .fenetre{
+    animation: apparitionHaut 0.5s 0.5s ease-out backwards;
     max-width: 550px;
     padding-right: 5%;
     padding-left: 5%;
@@ -541,6 +543,7 @@ footer i {
 }
 
 .connexionFormulaire div{
+    animation: apparitionCarte 0.5s 1.3s ease-out backwards;
     display: flex;
     flex-direction: column;
     align-items: : center;
@@ -602,6 +605,7 @@ footer i {
 }
 
 .detailTrajet .fenetre {
+    animation: apparitionGauche 0.5s 0.5s ease-out backwards;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -610,6 +614,7 @@ footer i {
 }
 
 .detailTrajet p {
+    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
     margin: auto 5px auto 10px;
 }
 
@@ -645,6 +650,7 @@ footer i {
 }
 
 .carteInfo{
+    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
     height: 20em;
     width: 40em;
     margin-right: 2em;
@@ -657,6 +663,7 @@ footer i {
 }
 
 .profilPerso .fenetre {
+    animation: apparitionDroite 0.5s 0.5s ease-out backwards;
     max-width: 40vw;
     display: flex;
     text-align: justify;
@@ -665,6 +672,7 @@ footer i {
 }
 
 .photoProfil {
+    animation: apparitionTourne 0.5s 1.3s ease-out backwards;
     border-radius: 100%;
     max-height: 120px;
     margin: 15px
@@ -698,6 +706,7 @@ footer i {
 
 
 .profilPerso .planete img {
+    animation: apparitionCarte 0.5s 2s ease-out backwards;
     max-width: 200px;
 }
 
@@ -718,6 +727,7 @@ footer i {
 
 
 .profilPerso .badge {
+    animation: apparitionCarte 0.5s 2s ease-out backwards;
     margin: 2px;
     height: 70px;
 }
@@ -729,6 +739,7 @@ footer i {
 }
 
 .identiteMembre {
+    animation: apparitionDroite 0.5s 1.3s ease-out backwards;
     margin: auto;
 }
 
@@ -740,6 +751,7 @@ footer i {
 }
 
 .informationProfil {
+    animation: apparition 0.5s 1.3s ease-out backwards;
     display: flex;
     flex-direction: row;
 }
@@ -803,6 +815,7 @@ color: #505050;
     font-size: 15px;
 }
 .cgu .fenetre{
+    animation: apparition 0.5s 0.5s ease-out backwards;
     max-width: 50em;
     margin: 2% auto;
 }
@@ -816,14 +829,20 @@ color: #505050;
     text-decoration: underline;
 }
 
+.cgu p{
+    animation: apparition 0.5s 1.3s ease-out backwards;
+}
+
 
 /*--------------------A propos-------------------*/
 .aPropos .fenetreG {
+    animation: apparition 0.5s 0.5s ease-out backwards;
     max-width: 60vw;
     min-width: 20vw;
 }
 
 .aPropos .fenetreG p {
+    animation: apparition 0.5s 1.3s ease-out backwards;
     font-family: 'Lato', sans-serif;
     color: #505050;
     text-align: justify;
