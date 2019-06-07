@@ -853,9 +853,22 @@ color: #505050;
 .topTableau{
     animation: apparitionHaut 0.5s 1.3s ease-out backwards;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-
+#blocDroit{
+    display: flex;
+}
+#blocGauche{
+    display: flex;
+}
+#flecheGauche{
+    margin: auto 5px;
+    transform: scale(1.5);
+}
+#flecheDroite{
+    margin: auto 5px;
+    transform: scale(1.5);
+}
 .avisTableau{
     animation: apparitionBas 0.5s 1.3s ease-out backwards;
 }
