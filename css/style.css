@@ -989,6 +989,7 @@ color: #505050;
 
 /*****************************************Liste trajet**********************************************/
 .choixTrajet .fenetre{
+    animation: apparitionGauche 0.5s 0.5s ease-out backwards;
     width: 40vw;
     margin: 2% auto;
     min-width: 800px;  
@@ -999,6 +1000,7 @@ color: #505050;
 }
 
 .choixTrajet .localisation{
+    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
     display: flex;
     justify-content: center;;
     align-items: center;
@@ -1018,6 +1020,7 @@ display: flex;
 }
 
 .listeTrajet .unTrajet{
+    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
     display: flex;
     flex-direction: column;
     padding: 0 30px 20px 30px;
@@ -1058,6 +1061,7 @@ display: flex;
 
 
 .filtrer{
+    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
     display: flex;
     flex-direction: row;
     text-align: center;
