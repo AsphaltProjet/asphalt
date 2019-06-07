@@ -1192,6 +1192,7 @@ display: flex;
  
 /******************************** plusDetail *************************************/
 .plusDetail .fenetre {
+    animation: apparition 0.5s 0.5s ease-out backwards;
     font-family: 'lato';
     display: flex;
     flex-direction: column;
@@ -1205,6 +1206,7 @@ display: flex;
 }
 
 .plusDetail .carte{
+    animation: apparitionDroite 0.5s 1.3s ease-out backwards;
     width: 50em;
     height: 33em;
     margin-right: 2em;
@@ -1212,11 +1214,13 @@ display: flex;
 }
 
 .plusDetail .localisation{
+    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
     display: flex;
     flex-direction: column;
 }
 
 .plusProposition{
+    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1252,11 +1256,13 @@ display: flex;
 }
 
 .confirmationInscription .fenetre{
+    animation: apparition 0.5s 0.5s ease-out backwards;
     max-width: 50em;
     margin: 2% auto;
 }
 
 .confirmationInscription p{
+    animation: apparition 0.5s 1.3s ease-out backwards;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     text-align: justify;
