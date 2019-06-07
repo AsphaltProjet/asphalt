@@ -1067,15 +1067,18 @@ display: flex;
  }
 
 .rechercher .fenetre{
+    animation: apparitionCarte 0.5s 0.5s ease-out backwards;
     max-width: 750px;
     margin: 2% auto;
  }
 
 .rechercheGauche{
+    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
     margin-left: 10%;
 }
 
 .horaireDate{
+    animation: apparitionBas 0.5s 1.3s ease-out backwards;
     display: flex;
     justify-content: center;
     margin-top: 7%;
@@ -1083,6 +1086,7 @@ display: flex;
 }
 
 .rechercheDroite{
+    animation: apparitionDroite 0.5s 1.3s ease-out backwards;
     margin-right: 10%;
 }
 
@@ -1102,6 +1106,7 @@ display: flex;
 }
 
 .fleche{
+    animation: apparition 0.5s 2s ease-out backwards;
     font-size: 3.5em;
     color: #31393D;
 }
@@ -1120,6 +1125,7 @@ display: flex;
 }
 .rechercher fieldset {
     border: none;
+    
 }
 
 .deuxPoint{
@@ -1150,6 +1156,7 @@ display: flex;
 }
 
 .proposer .fenetre{
+    animation: apparitionCarte 0.5s 0.5s ease-out backwards;
     max-width: 750px;
     margin: 2% auto;
  }
