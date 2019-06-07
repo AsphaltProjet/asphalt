@@ -22,7 +22,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="rechercheTrajet.html" >Rechercher</a></li>
+                <li><a href="rechercheTrajet.html">Rechercher</a></li>
                 <li><a href="proposerTrajet.html" class="pageActuel">Proposer</a></li>
                 <li><a href="inscription.html">Inscription</a></li>
                 <li><a href="connexion.html">Connexion</a></li>
@@ -34,7 +34,7 @@
             <h2>Où partez vous ?</h2>
             <div class="fenetre">
                 <form action="propose.php" method="get">
-<div class="rechercheRow">
+                    <div class="rechercheRow">
                         <div class="rechercheGauche">
                             <fieldset class="gauche">
                                 <label for="lieuDepart">Lieu de départ</label>
@@ -67,54 +67,112 @@
                         <div class="timing">
                             <div>
                                 <label for="heure">Horaire de départ</label>
-                                <select id="heure" name="heure" title="Heure" class="liste">
-                                    <option value="0">0h</option>
-                                    <option value="1">1h</option>
-                                    <option value="2">2h</option>
-                                    <option value="3">3h</option>
-                                    <option value="4">4h</option>
-                                    <option value="5">5h</option>
-                                    <option value="6">6h</option>
-                                    <option value="7">7h</option>
-                                    <option selected="selected" value="8">8h</option>
-                                    <option value="9">9h</option>
-                                    <option value="10">10h</option>
-                                    <option value="11">11h</option>
-                                    <option value="12">12h</option>
-                                    <option value="13">13h</option>
-                                    <option value="14">14h</option>
-                                    <option value="15">15h</option>
-                                    <option value="16">16h</option>
-                                    <option value="17">17h</option>
-                                    <option value="18">18h</option>
-                                    <option value="19">19h</option>
-                                    <option value="20">20h</option>
-                                    <option value="21">21h</option>
-                                    <option value="22">22h</option>
-                                    <option value="23">23h</option>
-                                </select>
+                                <div class="deroulent">
+                                    <div>
+                                        <select id="heure" name="heureD" title="Heure" class="liste">
+                                            <option value="0">0h</option>
+                                            <option value="1">1h</option>
+                                            <option value="2">2h</option>
+                                            <option value="3">3h</option>
+                                            <option value="4">4h</option>
+                                            <option value="5">5h</option>
+                                            <option value="6">6h</option>
+                                            <option value="7">7h</option>
+                                            <option selected="selected" value="8">8h</option>
+                                            <option value="9">9h</option>
+                                            <option value="10">10h</option>
+                                            <option value="11">11h</option>
+                                            <option value="12">12h</option>
+                                            <option value="13">13h</option>
+                                            <option value="14">14h</option>
+                                            <option value="15">15h</option>
+                                            <option value="16">16h</option>
+                                            <option value="17">17h</option>
+                                            <option value="18">18h</option>
+                                            <option value="19">19h</option>
+                                            <option value="20">20h</option>
+                                            <option value="21">21h</option>
+                                            <option value="22">22h</option>
+                                            <option value="23">23h</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="minute" class="deuxPoint">:</label>
+                                        <select id="minute" name="minuteD" title="Minute" class="liste">
+                                            <option selected="selected" value="0">00</option>
+                                            <option value="10">10</option>
+                                            <option value="20">20</option>
+                                            <option value="30">30</option>
+                                            <option value="40">40</option>
+                                            <option value="50">50</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                        <div class="timing">
                             <div>
-                                <label for="minute" class="deuxPoint">:</label>
-                                <select id="minute" name="minute" title="Minute" class="liste">
-                                    <option selected="selected" value="0">00</option>
-                                    <option value="10">10</option>
-                                    <option value="20">20</option>
-                                    <option value="30">30</option>
-                                    <option value="40">40</option>
-                                    <option value="50">50</option>
-                                </select>
+                                <label for="heure">Horaire de d'arrivée</label>
+                                <div class="deroulent">
+                                    <div>
+                                        <select id="heure" name="heureA" title="Heure" class="liste">
+                                            <option value="0">0h</option>
+                                            <option value="1">1h</option>
+                                            <option value="2">2h</option>
+                                            <option value="3">3h</option>
+                                            <option value="4">4h</option>
+                                            <option value="5">5h</option>
+                                            <option value="6">6h</option>
+                                            <option value="7">7h</option>
+                                            <option selected="selected" value="8">8h</option>
+                                            <option value="9">9h</option>
+                                            <option value="10">10h</option>
+                                            <option value="11">11h</option>
+                                            <option value="12">12h</option>
+                                            <option value="13">13h</option>
+                                            <option value="14">14h</option>
+                                            <option value="15">15h</option>
+                                            <option value="16">16h</option>
+                                            <option value="17">17h</option>
+                                            <option value="18">18h</option>
+                                            <option value="19">19h</option>
+                                            <option value="20">20h</option>
+                                            <option value="21">21h</option>
+                                            <option value="22">22h</option>
+                                            <option value="23">23h</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="minute" class="deuxPoint">:</label>
+                                        <select id="minute" name="minuteA" title="Minute" class="liste">
+                                            <option selected="selected" value="0">00</option>
+                                            <option value="10">10</option>
+                                            <option value="20">20</option>
+                                            <option value="30">30</option>
+                                            <option value="40">40</option>
+                                            <option value="50">50</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <label for="date">Date</label>
-                            <input class="calendrier" id="datepicker" name="dateTrajet" />
+                        <div class="timing">
+                            <div>
+                                <label for="date">Date</label>
+                                <div class="deroulent">
+                                    <input class="calendrier" id="datepicker" name="dateTrajet" />
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </form>
-            </div>
-            <div class="boutonRecherche">
-                <a href="plusDetail.html"> <button class="boutonBlanc">En route !</button></a>
+
+                <div class="boutonRecherche">
+                    <a href="plusDetail.html">
+                        <button class="boutonBlanc">En route !</button>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
@@ -138,7 +196,7 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/asphalt.js"></script>
-    
+
 </body>
 
 </html>
