@@ -1431,3 +1431,39 @@ display: flex;
   color: #F9E56A;
 }
 
+/*------------------------- RESPONSIVE pour tablette ------------------------*/
+@media only screen and (max-width: 768px) {
+    
+    h2{
+        margin: 8%;
+    }
+    
+    .fa-exchange-alt{
+    transform: rotate(90deg);
+  }
+    
+    .fa-exchange-alt:hover{
+    transform: rotate(270deg);  
+    transition: 0.5s ease-out;
+}
+    .rechercheRow{
+    flex-direction: column;
+    justify-content: center;
+ }
+    .rechercheGauche{
+    margin-left: 0%;
+}
+    .rechercheDroite{
+    margin-right: 0%;
+}
+    .rechercher .fenetre{
+    max-width: 590px;
+ }
+    .proposer .fenetre{
+    max-width: 590px;
+ }
+    
+    .boutonValider{
+    margin: 5%;
+}
+}
