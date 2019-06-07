@@ -27,7 +27,12 @@ if (isset($_POST['nom']) &&
     isset($_POST['mdp']) &&
     isset($_POST['confirmationMdp']) &&
     isset($_POST['conditionsUtilisation'])&&
-    ($_POST['conducteur']==true || $_POST['passager']==true)){
+    ($_POST['conducteur']==true || $_POST['passager']==true))
+if($_POST['conducteur']==true){
+        isset($_POST['modeleVoiture']) &&
+        isset($_POST['couleurVoiture']) &&
+        isset($_POST['nbPlaces'])
+    }{
 
     if($_POST['mdp']==$_POST['confirmationMdp']){
         
@@ -48,6 +53,11 @@ if (isset($_POST['nom']) &&
                 'statut'=>($_POST['conducteur'].",".$_POST['passager']),
                 'nbTrajet'=>0, 
                 'cagnotte'=>0
+            )) or die(print_r($pdo->errorInfo()));
+	$ajouterVoiture->execute(array(
+                'modele'=>$_POST['modeleVoiture'],
+                'couleur'=>$_POST['couleurVoiture'],
+                'nbPlaces'=>$_POST['nbPlaces']
             )) or die(print_r($pdo->errorInfo()));
             header('Location: confirmationInscription.html');
             
