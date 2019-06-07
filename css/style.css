@@ -431,14 +431,10 @@ footer i {
 
 
 /*********************************************************ACCUEIL**************************************/
-/*Bulle de la page d'accueil*/
-@keyframes float{
-    0%{transform: translateY(0%);}
-    100%{transform: translateY(-5%);}
-}
 
 /*Bulle de la page d'accueil*/
 .bulleAccueil{
+    animation: apparitionGauche 1s 2s ease-out backwards;
     background-color: white;
     height: 60px;
     width: 200px;
