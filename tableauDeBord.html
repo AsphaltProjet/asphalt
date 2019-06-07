@@ -37,14 +37,17 @@
         <section class="tableauBord">
             <h2>Tableau de bord</h2>
             <div class="fenetre">
-               
-                <div class="topTableau">
-                     <div id="blocGauche">
-                   <i id="flecheGauche" class="fas fa-angle-left"></i>
-                 <div class="demandeTrajet">
-                        <h3>Mes demandes (3) : </h3>
-                                             
-                        
+               <div id="onglets">
+                   <ul>
+                    <li><a href="#onglet-1">Demandes</a></li>
+                    <li><a href="#onglet-2">A venir</a></li>
+                    <li><a href="#onglet-3">Evaluation</a></li>
+                    </ul>
+                
+                 <div class="demandeTrajet" id="onglet-1">
+                     <h3>Mes demandes (3) : </h3>
+                      <i id="flecheGauche" class="fas fa-angle-left"></i>
+                        <div>
                         <div class="unTrajet">
                             <p>Trajet avec <strong>Paul Durant</strong> - Lundi 29 mars 2019</p>
                             <div class="detailTrajet">
@@ -57,6 +60,7 @@
                                     <p>15 rue des Lilas, Laval</p>
                                     <p>IUT Laval</p>
                                 </div>
+                                
                                 <div class="confirmer">
                                     <i class="far fa-check-circle" id="valider"></i>
                                     <!--<i class="fas fa-check-circle"></i>-->
@@ -66,24 +70,38 @@
 
                             </div>
                         </div>
-                        
-                        
+                         <div class="unTrajet">
+                            <p>Trajet avec <strong>AM PUIZILLOUT</strong> - Lundi 29 mars 2019</p>
+                            <div class="detailTrajet">
+                                <i class="fas fa-user-circle"></i>
+                                <div class="horaireTrajet">
+                                    <p>7 :45</p>
+                                    <p>7 :55</p>
+                                </div>
+                                <div class="adresseTrajet">
+                                    <p>15 rue des Lilas, Laval</p>
+                                    <p>IUT Laval</p>
+                                </div>
+                                
+                                <div class="confirmer">
+                                    <i class="far fa-check-circle" id="valider"></i>
+                                    <!--<i class="fas fa-check-circle"></i>-->
+                                    <i id="refuser" class="far fa-times-circle"></i>
+                                    <!--<i class="fas fa-times-circle"></i>-->
+                                </div>
+
+                            </div>
+                        </div>
+                       </div> 
                          <div class="pasDeTrajet">
                             <p>Vous n'avez pas  de demande de trajet en attente</p>
                         </div>
-                    </div>
-                    
-                   
                      <i id="flecheDroite" class="fas fa-angle-right"></i>
                     </div>
                     
-                    <div id="blocDroit">
-
-                        <i id="flecheGauche" class="fas fa-angle-left"></i>
-                
-                    
-                    <div class="trajetAVenir">
-                        <h3>Mes trajets à venir (4) :</h3>
+                    <div class="trajetAVenir" id="onglet-2">
+                         <h3>Mes trajets à venir (4) :</h3>
+                         <i id="flecheGauche" class="fas fa-angle-left"></i>
                         <div class="unTrajet">
                             <p>Lundi 29 mars 2019</p>
                             <div class="detailTrajet">
@@ -102,19 +120,15 @@
                         <div class="pasDeTrajet">
                             <p>Vous n'avez pas  de trajet prévu</p>
                         </div>
-                        
+                         <i id="flecheDroite" class="fas fa-angle-right"></i>
                     </div>
-                    <i id="flecheDroite" class="fas fa-angle-right"></i>
-
-                </div>
-
                    
 
-                </div>
+                
 
 
 
-                <div class="avisTableau">
+                <div class="avisTableau" id="onglet-3">
                     <h3>Evaluer mes trajets :</h3>
                     <div class="pasDeTrajet">
                             <p>Vous n'avez pas de trajet à évaluer</p>
@@ -150,6 +164,7 @@
 
                 </div>
             </div>
+        </div>
         </section>
     </main>
 
