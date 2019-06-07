@@ -28,9 +28,7 @@ if (isset($_POST['nom']) &&
     isset($_POST['mdp']) &&
     isset($_POST['confirmationMdp']) &&
     isset($_POST['conditionsUtilisation'])&&
-    ($_POST['passager']==true || ($_POST['conducteur']==true && isset($_POST['modeleVoiture']) &&
-    isset($_POST['couleurVoiture']) &&
-    isset($_POST['nbPlaces']))))
+    ($_POST['passager']==true || ($_POST['conducteur']==true &&  isset($_POST['modeleVoiture']) && isset($_POST['couleurVoiture']) && isset($_POST['nbPlaces']))))
 {
 
     if($_POST['mdp']==$_POST['confirmationMdp']){
@@ -55,12 +53,14 @@ if (isset($_POST['nom']) &&
             )) or die(print_r($pdo->errorInfo()));
             $existMail->execute(array($_POST['adresseMail']));
             $idUser = $existMail->fetch();
+            if($_POST['conducteur']==true){
             $ajouterVoiture->execute(array(
                 'modele'=>$_POST['modèleVoiture'],
                 'couleur'=>$_POST['couleurVoiture'],
                 'nbPlaces'=>$_POST['nbPlaces'],
                 'idUser'=> $idUser["idUser"]
             )) or die(print_r($pdo->errorInfo()));
+            }
             header('Location: confirmationInscription.html');
             
         } else{
