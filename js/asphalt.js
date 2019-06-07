@@ -38,6 +38,21 @@ function initialiser(evt){
    /*afficher partie conducteur*/
     let conducspace = $("#conducteur");
     conducspace.click(showConducSpace);
+  
+  /*---slider tableau de bord--*/
+    let flecheDr=$("#flecheDroite");
+    let flecheGc=$("#flecheGauche");
+    flecheDr.click(slideAvant);
+    flecheGc.click(slideArriere);
+    /*$(".unTrajet:not(:first-child)").hide();*/
+    $(".unTrajet:first-child").addClass("selected");
+    
+    /*--tabs--*/
+    let onglets = $("#onglets");
+    onglets.tabs({
+        
+        
+    })
 }
 function swapTexte(evt){
     let depart    = $("#lieuDepart");
@@ -94,6 +109,19 @@ $('.star').on('change', function() {
         spaceConduc.css("display", "none");
         $("#conducteur").off("click",hideConducSpace);
         $("#conducteur").click(showConducSpace);
+    }
+   function slideAvant(evt){
+        let divNow=$(".unTrajet.selected");
+        if(!divNow.is(":last-child")){
+            let divNext=divNow.next();
+            divNow.hide();
+            divNext.show();
+        }
+    }
+    
+    function slideArriere(evt){
+         let divNow=$("#unTrajet");
+        divNow.prev();
     }
 
 
