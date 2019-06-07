@@ -34,6 +34,10 @@ function initialiser(evt){
     refuser.mouseover(remplirRefuser);
     refuser.mouseout(viderRefuser);
     refuser.click(validerRefuser);
+  
+   /*afficher partie conducteur*/
+    let conducspace = $("#conducteur");
+    conducspace.click(showConducSpace);
 }
 function swapTexte(evt){
     let depart    = $("#lieuDepart");
@@ -75,6 +79,21 @@ $('.star').on('change', function() {
     function validerRefuser(evt){
         let choix=$(this);
         choix.parent().parent().parent().css("display","none");
+    }
+  
+  /*-----fonctions afficher/cacher spaceConduc-----*/
+    function showConducSpace(evt){
+        let spaceConduc=$("#conducSpace");
+        spaceConduc.css("display", "block");
+        $("#conducteur").off("click",showConducSpace);
+        $("#conducteur").click(hideConducSpace);
+        
+    }
+    function hideConducSpace(evt){
+        let spaceConduc=$("#conducSpace");
+        spaceConduc.css("display", "none");
+        $("#conducteur").off("click",hideConducSpace);
+        $("#conducteur").click(showConducSpace);
     }
 
 
