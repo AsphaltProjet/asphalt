@@ -1347,6 +1347,12 @@ display: flex;
     cursor: default;
 }
 
+/*-----conducSpace------*/
+#conducSpace{
+    display: none;
+}
+
+
 /*************************************************************NOUS CONTACTER****************************************************/
 
 .nousContacter{
