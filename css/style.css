@@ -1186,6 +1186,11 @@ display: flex;
     margin-right: 4%;
 }
 
+.proposer .deroulent{
+    display: flex;
+    justify-content: center;
+}
+
 .proposer label {
     color: #505050;
     text-decoration: none;
