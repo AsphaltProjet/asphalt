@@ -1276,6 +1276,7 @@ display: flex;
 }
 
 .inscription fieldset{
+    animation: apparitionBas 0.5s 1.3s ease-out backwards;
     border:none;
 }
 
@@ -1299,6 +1300,7 @@ display: flex;
 }
 
 .inscription .fenetre {
+    animation: apparitionGauche 0.5s 0.5s ease-out backwards;
     max-width: 550px;
     margin:0 auto 2%; 
     display: flex;
@@ -1333,7 +1335,12 @@ display: flex;
     text-align: center;
 }
 
+.nousContacter div{
+    animation: apparitionHaut 0.5s 0.5s ease-out backwards;
+}
+
 .nousContacter .contact{
+    animation: apparitionCarte 0.5s 1.3s ease-out backwards;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1356,6 +1363,7 @@ display: flex;
 }
 
 .nousContacter .fenetreD{
+    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
 }
 
 .nousContacter .fenetreD .reseaux {
