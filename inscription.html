@@ -35,8 +35,9 @@
    <main>
         <section class="inscription">
             <h2> A propos de vous...</h2>
-            <div class="fenetre">
-                <form action="" method="get">
+             <form action="" method="post">
+                 <div class="fenetre">
+               
                     <fieldset>
                         <label for="nom"></label>
                         <input class="saisie" type="text" id="nom" placeholder="Nom" name="nom" required />
@@ -116,11 +117,12 @@
                         <input type="checkbox" id="conditionsUtilisation" placeholder="Numéto de téléphone" name="conditionsUtilisation" required />
                         <label for="conditionsUtilisation">Accepter les <a href="CGU.html">conditions d'utilisations</a></label>
                     </fieldset>
+                     </div>
+                    <div class="boutonValider">
+                        <input type=submit class="boutonBlanc" value="Valider"/>
+                     </div>
                 </form>
-            </div>
-            <div class="boutonValider">
-                <a href="confirmationInscription.html"><button class="boutonBlanc">Valider</button></a>
-            </div>
+           
         </section>
     </main>
 
