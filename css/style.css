@@ -851,16 +851,21 @@ color: #505050;
 }
 /*************************************Tableau de bord************************************************/ 
 .topTableau{
+    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
     display: flex;
     justify-content: space-around;
 }
 
+.avisTableau{
+    animation: apparitionBas 0.5s 1.3s ease-out backwards;
+}
+
 .tableauBord .fenetre{
+    animation: apparitionGauche 0.5s 0.5s ease-out backwards;
     max-width: 45vw;
     margin: 2% auto;
     min-width: 800px;    
 }
-
 
 .trajetAVenir{
     max-width: 400px;
