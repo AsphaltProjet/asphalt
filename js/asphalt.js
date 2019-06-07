@@ -27,7 +27,13 @@ function initialiser(evt){
     fleche.click(afficherCom);
   
     let valider = $("#valider");
-    valider.click(validerTrajet);
+    valider.mouseover(remplirValider);
+    valider.mouseout(viderValider);
+    let refuser = $("#refuser");
+    valider.click(validerRefuser);
+    refuser.mouseover(remplirRefuser);
+    refuser.mouseout(viderRefuser);
+    refuser.click(validerRefuser);
 }
 function swapTexte(evt){
     var depart    = document.getElementById("lieuDepart");
@@ -48,9 +54,28 @@ $('.star').on('change', function() {
         $("#fleche").css("visibility", "hidden");
 } 
   
-  function validerTrajet(evt){
-        let valider = $(this);
-        valider.attr('fas','far');
+ function remplirValider(evt){
+        let remplir = $(this);
+        remplir.attr({class: "fas fa-check-circle"});
     }
+    function viderValider(evt){
+        let vider = $(this);
+        vider.attr({class: "far fa-check-circle"});
+    }
+    
+    function remplirRefuser(evt){
+        let remplir = $(this);
+        remplir.attr({class: "fas fa-times-circle"});
+    }
+    function viderRefuser(evt){
+        let vider = $(this);
+        vider.attr({class: "far fa-times-circle"});
+    }
+    
+    function validerRefuser(evt){
+        let choix=$(this);
+        choix.parent().parent().parent().css("display","none");
+    }
+
 
 }());
