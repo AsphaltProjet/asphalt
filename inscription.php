@@ -2,7 +2,6 @@
 session_start();
 require_once ('param.inc.php');
 
-echo('1');
 try{
 	$pdo=new PDO("mysql:host=".MYHOST.";dbname=".MYDB."", MYUSER, MYPASS);
     $pdo->query("SET NAMES utf8");
@@ -29,8 +28,7 @@ if (isset($_POST['nom']) &&
     isset($_POST['confirmationMdp']) &&
     isset($_POST['conditionsUtilisation'])&&
     ($_POST['conducteur']==true || $_POST['passager']==true)){
-    
-echo('3');
+
     if($_POST['mdp']==$_POST['confirmationMdp']){
         
         $existMail->execute(array($_POST['mailUser']));
