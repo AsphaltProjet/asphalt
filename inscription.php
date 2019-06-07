@@ -8,12 +8,13 @@ try{
     $pdo->query("SET CHARACTER SET 'utf8'");
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
-catch (Exception $e){
-	die("Un problème est survenu lors de votre inscription : ".$e->getMessage());
+catch (PDOException $e){
+	echo 'Echec de la connexion : ',$e->getMessage();
 }
 
 // requete pour ajouter membre
 $ajouterMembre=$pdo->prepare('INSERT INTO USER(nomUser, prenomUser, dateNaissanceUser, mailUser, motDePasseUser, numTel, urlPP,statutUser, nbTrajets, cagnotte) VALUES(:nom, :prenom, :dateNaissance, :mail, :mdp, :num, :photo, :statut, :nbTrajet, :cagnotte)');
+$ajouterVoiture=$pdo->prepare('INSERT INTO VOITURE(modeleVoiture, couleurVoiture, nbPlaces, idUser) VALUES(:modele, :couleur, :nbPlaces, :idUser)');
 
 $existMail=$pdo->prepare('SELECT idUser FROM USER WHERE mailUser=?');
 
@@ -27,16 +28,14 @@ if (isset($_POST['nom']) &&
     isset($_POST['mdp']) &&
     isset($_POST['confirmationMdp']) &&
     isset($_POST['conditionsUtilisation'])&&
-    ($_POST['conducteur']==true || $_POST['passager']==true))
-if($_POST['conducteur']==true){
-        isset($_POST['modeleVoiture']) &&
-        isset($_POST['couleurVoiture']) &&
-        isset($_POST['nbPlaces'])
-    }{
+    ($_POST['passager']==true || ($_POST['conducteur']==true && isset($_POST['modeleVoiture']) &&
+    isset($_POST['couleurVoiture']) &&
+    isset($_POST['nbPlaces']))))
+{
 
     if($_POST['mdp']==$_POST['confirmationMdp']){
         
-        $existMail->execute(array($_POST['mailUser']));
+        $existMail->execute(array($_POST['adresseMail']));
         $testMail=$existMail->fetch();
         if(!isset($testMail['idUser'])){ //verif si adresse mail existe pas deja
             
@@ -54,10 +53,13 @@ if($_POST['conducteur']==true){
                 'nbTrajet'=>0, 
                 'cagnotte'=>0
             )) or die(print_r($pdo->errorInfo()));
-	$ajouterVoiture->execute(array(
-                'modele'=>$_POST['modeleVoiture'],
+            $existMail->execute(array($_POST['adresseMail']));
+            $idUser = $existMail->fetch();
+            $ajouterVoiture->execute(array(
+                'modele'=>$_POST['modèleVoiture'],
                 'couleur'=>$_POST['couleurVoiture'],
-                'nbPlaces'=>$_POST['nbPlaces']
+                'nbPlaces'=>$_POST['nbPlaces'],
+                'idUser'=> $idUser["idUser"]
             )) or die(print_r($pdo->errorInfo()));
             header('Location: confirmationInscription.html');
             
