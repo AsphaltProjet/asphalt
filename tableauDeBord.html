@@ -37,10 +37,11 @@
         <section class="tableauBord">
             <h2>Tableau de bord</h2>
             <div class="fenetre">
-
-
+               
                 <div class="topTableau">
-                    <div class="demandeTrajet">
+                     <div id="blocGauche">
+                   <i id="flecheGauche" class="fas fa-angle-left"></i>
+                 <div class="demandeTrajet">
                         <h3>Mes demandes (3) : </h3>
                                              
                         
@@ -59,7 +60,7 @@
                                 <div class="confirmer">
                                     <i class="far fa-check-circle" id="valider"></i>
                                     <!--<i class="fas fa-check-circle"></i>-->
-                                    <i class="far fa-times-circle"></i>
+                                    <i id="refuser" class="far fa-times-circle"></i>
                                     <!--<i class="fas fa-times-circle"></i>-->
                                 </div>
 
@@ -70,8 +71,16 @@
                          <div class="pasDeTrajet">
                             <p>Vous n'avez pas  de demande de trajet en attente</p>
                         </div>
-                        
                     </div>
+                    
+                   
+                     <i id="flecheDroite" class="fas fa-angle-right"></i>
+                    </div>
+                    
+                    <div id="blocDroit">
+
+                        <i id="flecheGauche" class="fas fa-angle-left"></i>
+                
                     
                     <div class="trajetAVenir">
                         <h3>Mes trajets à venir (4) :</h3>
@@ -95,6 +104,11 @@
                         </div>
                         
                     </div>
+                    <i id="flecheDroite" class="fas fa-angle-right"></i>
+
+                </div>
+
+                   
 
                 </div>
 
