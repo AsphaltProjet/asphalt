@@ -10,10 +10,10 @@
             <div class="fenetre">
                 <h2>Où allez-vous ?</h2>
                 <div class="boutonsAccueil">
-                    <a href="rechercheTrajet.html">
+                    <a href="rechercheTrajet.php">
                         <button class="boutonBlanc">Rechercher un trajet</button>
                     </a>
-                    <a href="proposerTrajet.html">
+                    <a href="proposerTrajet.php">
                         <button class="boutonBlanc">Proposer un trajet</button>
                     </a>
                 </div>
