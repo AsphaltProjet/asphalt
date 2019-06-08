@@ -55,9 +55,9 @@ function initialiser(evt){
     })
 }
 function swapTexte(evt){
-    let depart    = $("#lieuDepart");
-    let arrivee   =$("#lieuArrivee");
-    let swaper    = depart.value;
+    var depart    = document.getElementById("lieuDepart");
+    var arrivee   =document.getElementById("lieuArrivee");
+    var swaper    = depart.value;
     depart.value  = arrivee.value;
     arrivee.value = swaper;
 }
