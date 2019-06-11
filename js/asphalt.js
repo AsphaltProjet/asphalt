@@ -37,6 +37,8 @@ function initialiser(evt){
   
    /*afficher partie conducteur*/
     let conducspace = $("#conducteur");
+    let spaceConduc=$("#conducSpace");
+    spaceConduc.css("display", "none");
     conducspace.click(showConducSpace);
   
   /*---slider tableau de bord--*/
