@@ -1445,14 +1445,16 @@ display: flex;
 /*------------------------- RESPONSIVE pour tablette ------------------------*/
 @media only screen and (max-width: 768px) {
     
+    .boutonBlanc{ 
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
     h2{
-        margin: 8%;
-    }
-    
+    margin: 8%;
+}
     .fa-exchange-alt{
     transform: rotate(90deg);
-  }
-    
+}
     .fa-exchange-alt:hover{
     transform: rotate(270deg);  
     transition: 0.5s ease-out;
@@ -1460,7 +1462,7 @@ display: flex;
     .rechercheRow{
     flex-direction: column;
     justify-content: center;
- }
+}
     .rechercheGauche{
     margin-left: 0%;
 }
@@ -1469,10 +1471,64 @@ display: flex;
 }
     .rechercher .fenetre{
     max-width: 590px;
- }
+}
     .proposer .fenetre{
     max-width: 590px;
- }
-    
+}
+    .nousContacter .fenetre{
+    max-width: 590px;
+}
+    .nousContacter .reseaux div {
+    margin-left: 9%;
+}
+    .nousContacter .reseaux div p {
+    margin-left: 10%;
+}
+    .nousContacter .reseaux div i {
+    transform: scale(1.5);
+}
+    .cgu .fenetre{
+    max-width: 590px;
+}
+    .choixTrajet .fenetre{
+    min-width: 630px;
+}
+    .listeTrajet .unTrajet{
+    max-width: 590px;
+    margin-left: -13px;
+}
+    .detailTrajet .fenetre{
+    max-width: 590px;
+}
+    .Info{
+    flex-direction: column;
+}
+    .carteInfo{
+    height: 20em;
+    width: 49em;
+    margin-right: 0;
+    margin-left: 0;
+} 
+    .plusDetail .fenetre {
+    max-width: 590px;
+}
+    .detailCarte{
+    flex-direction: column;
+}
+    .plusDetail .carte{
+    width: 49em;
+    margin-right: 0;
+    margin-left: 0;
+}
+    .plusProposition .plusEtape{
+    height: 10em;
+}   
+    .profilPerso .fenetre {
+    max-width: 590px;
+}
+    .confirmationInscription .fenetre{
+    max-width: 590px;
+}
     
 }
+
