@@ -174,7 +174,7 @@ select{
 
 /********************************************** ANIMATION ***********************************/
 .appaDroite{
-   animation: apparitionDroite 0.5s 0.5s ease-out backwards;
+   animation: apparitionDroite 0.25s 0.25s ease-out backwards;
 }
 @keyframes apparitionDroite{
     0%{
@@ -187,7 +187,7 @@ select{
 }
 
 .appaGauche{
-   animation: apparitionGauche 0.5s 0.5s ease-out backwards;
+   animation: apparitionGauche 0.25s 0.25s ease-out backwards;
 }
 @keyframes apparitionGauche{
     0%{
@@ -200,7 +200,7 @@ select{
 }
 
 .appaHaut{
-   animation: apparitionHaut 0.5s 0.5s ease-out backwards;
+   animation: apparitionHaut 0.25s 0.25s ease-out backwards;
 }
 @keyframes apparitionHaut{
     0%{
@@ -213,7 +213,7 @@ select{
 }
 
 .appaBas{
-   animation: apparitionBas 0.5s 0.5s ease-out backwards;
+   animation: apparitionBas 0.25s 0.25s ease-out backwards;
 }
 @keyframes apparitionBas{
     0%{
@@ -226,7 +226,7 @@ select{
 }
 
 .appaTourne{
-   animation: apparitionTourne 0.5s 0.5s ease-out backwards;
+   animation: apparitionTourne 0.25s 0.25s ease-out backwards;
 }
 @keyframes apparitionTourne{
     0%{
@@ -239,7 +239,7 @@ select{
 }
 
 .appaCarte{
-   animation: apparitionCarte 0.5s 0.5s ease-out backwards;
+   animation: apparitionCarte 0.25s 0.25s ease-out backwards;
 }
 @keyframes apparitionCarte{
     0%{
@@ -252,7 +252,7 @@ select{
 }
 
 .appa{
-   animation: apparition 0.5s 0.5s ease-out backwards;
+   animation: apparition 0.25s 0.25s ease-out backwards;
 }
 @keyframes apparition{
     0%{
@@ -519,7 +519,7 @@ footer i {
 
 /*Bulle de la page d'accueil*/
 .bulleAccueil{
-    animation: apparitionGauche 1s 2s ease-out backwards;
+    animation: apparitionGauche 0.5s 1s ease-out backwards;
     background-color: white;
     height: 60px;
     width: 200px;
@@ -612,14 +612,14 @@ footer i {
 }
 
 .lienMdp{
-    animation: apparition 0.5s 2s ease-out backwards;
+    animation: apparition 0.25s 1s ease-out backwards;
     color: black;
     font-family: 'Lato', sans-serif;
     margin-bottom: 1.4em;
 }
 
 .connexionFormulaire .fenetre{
-    animation: apparitionHaut 0.5s 0.5s ease-out backwards;
+    animation: apparitionHaut 0.25s 0.25s ease-out backwards;
     max-width: 550px;
     padding-right: 5%;
     padding-left: 5%;
@@ -627,7 +627,7 @@ footer i {
 }
 
 .connexionFormulaire div{
-    animation: apparitionCarte 0.5s 1.3s ease-out backwards;
+    animation: apparitionCarte 0.25s 0.65s ease-out backwards;
     display: flex;
     flex-direction: column;
     align-items: : center;
@@ -689,7 +689,7 @@ footer i {
 }
 
 .detailTrajet .fenetre {
-    animation: apparitionGauche 0.5s 0.5s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.25s ease-out backwards;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -698,7 +698,7 @@ footer i {
 }
 
 .detailTrajet p {
-    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.65s ease-out backwards;
     margin: auto 5px auto 10px;
 }
 
@@ -734,7 +734,7 @@ footer i {
 }
 
 .carteInfo{
-    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
+    animation: apparitionHaut 0.25s 0.65s ease-out backwards;
     height: 20em;
     width: 40em;
     margin-right: 2em;
@@ -747,7 +747,7 @@ footer i {
 }
 
 .profilPerso .fenetre {
-    animation: apparitionDroite 0.5s 0.5s ease-out backwards;
+    animation: apparitionDroite 0.25s 0.25s ease-out backwards;
     max-width: 40vw;
     display: flex;
     text-align: justify;
@@ -756,7 +756,7 @@ footer i {
 }
 
 .photoProfil {
-    animation: apparitionTourne 0.5s 1.3s ease-out backwards;
+    animation: apparitionTourne 0.25s 0.65s ease-out backwards;
     border-radius: 100%;
     max-height: 120px;
     margin: 15px
@@ -790,7 +790,7 @@ footer i {
 
 
 .profilPerso .planete img {
-    animation: apparitionCarte 0.5s 2s ease-out backwards;
+    animation: apparitionCarte 0.25s 1s ease-out backwards;
     max-width: 200px;
 }
 
@@ -811,7 +811,7 @@ footer i {
 
 
 .profilPerso .badge {
-    animation: apparitionCarte 0.5s 2s ease-out backwards;
+    animation: apparitionCarte 0.25s 1s ease-out backwards;
     margin: 2px;
     height: 70px;
 }
@@ -823,7 +823,7 @@ footer i {
 }
 
 .identiteMembre {
-    animation: apparitionDroite 0.5s 1.3s ease-out backwards;
+    animation: apparitionDroite 0.25s 0.65s ease-out backwards;
     margin: auto;
 }
 
@@ -835,7 +835,7 @@ footer i {
 }
 
 .informationProfil {
-    animation: apparition 0.5s 1.3s ease-out backwards;
+    animation: apparition 0.25s 0.65s ease-out backwards;
     display: flex;
     flex-direction: row;
 }
@@ -899,7 +899,7 @@ color: #505050;
     font-size: 15px;
 }
 .cgu .fenetre{
-    animation: apparition 0.5s 0.5s ease-out backwards;
+    animation: apparition 0.25s 0.25s ease-out backwards;
     max-width: 50em;
     margin: 2% auto;
 }
@@ -914,19 +914,19 @@ color: #505050;
 }
 
 .cgu p{
-    animation: apparition 0.5s 1.3s ease-out backwards;
+    animation: apparition 0.25s 0.65s ease-out backwards;
 }
 
 
 /*--------------------A propos-------------------*/
 .aPropos .fenetreG {
-    animation: apparition 0.5s 0.5s ease-out backwards;
+    animation: apparition 0.25s 0.25s ease-out backwards;
     max-width: 60vw;
     min-width: 20vw;
 }
 
 .aPropos .fenetreG p {
-    animation: apparition 0.5s 1.3s ease-out backwards;
+    animation: apparition 0.25s 0.65s ease-out backwards;
     font-family: 'Lato', sans-serif;
     color: #505050;
     text-align: justify;
@@ -935,7 +935,7 @@ color: #505050;
 }
 /*************************************Tableau de bord************************************************/ 
 .topTableau{
-    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
+    animation: apparitionHaut 0.25s 0.65s ease-out backwards;
     display: flex;
     justify-content: space-between;
 }
@@ -954,11 +954,11 @@ color: #505050;
     transform: scale(1.5);
 }
 .avisTableau{
-    animation: apparitionBas 0.5s 1.3s ease-out backwards;
+    animation: apparitionBas 0.25s 0.65s ease-out backwards;
 }
 
 .tableauBord .fenetre{
-    animation: apparitionGauche 0.5s 0.5s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.25s ease-out backwards;
     max-width: 45vw;
     margin: 2% auto;
     min-width: 800px;    
@@ -1086,7 +1086,7 @@ color: #505050;
 
 /*****************************************Liste trajet**********************************************/
 .choixTrajet .fenetre{
-    animation: apparitionGauche 0.5s 0.5s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.25s ease-out backwards;
     width: 40vw;
     margin: 2% auto;
     min-width: 800px;  
@@ -1097,7 +1097,7 @@ color: #505050;
 }
 
 .choixTrajet .localisation{
-    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
+    animation: apparitionHaut 0.25s 0.65s ease-out backwards;
     display: flex;
     justify-content: center;;
     align-items: center;
@@ -1117,7 +1117,7 @@ display: flex;
 }
 
 .listeTrajet .unTrajet{
-    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.65s ease-out backwards;
     display: flex;
     flex-direction: column;
     padding: 0 30px 20px 30px;
@@ -1158,7 +1158,7 @@ display: flex;
 
 
 .filtrer{
-    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
+    animation: apparitionHaut 0.25s 0.65s ease-out backwards;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -1193,18 +1193,18 @@ display: flex;
  }
 
 .rechercher .fenetre{
-    animation: apparitionCarte 0.5s 0.5s ease-out backwards;
+    animation: apparitionCarte 0.25s 0.25s ease-out backwards;
     max-width: 750px;
     margin: 2% auto;
  }
 
 .rechercheGauche{
-    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.65s ease-out backwards;
     margin-left: 10%;
 }
 
 .horaireDate{
-    animation: apparitionBas 0.5s 1.3s ease-out backwards;
+    animation: apparitionBas 0.25s 0.65s ease-out backwards;
     display: flex;
     justify-content: center;
     margin-top: 7%;
@@ -1212,7 +1212,7 @@ display: flex;
 }
 
 .rechercheDroite{
-    animation: apparitionDroite 0.5s 1.3s ease-out backwards;
+    animation: apparitionDroite 0.25s 0.65s ease-out backwards;
     margin-right: 10%;
 }
 
@@ -1232,7 +1232,7 @@ display: flex;
 }
 
 .fleche{
-    animation: apparition 0.5s 2s ease-out backwards;
+    animation: apparition 0.25s 1s ease-out backwards;
     font-size: 3.5em;
     color: #31393D;
 }
@@ -1287,14 +1287,14 @@ display: flex;
 }
 
 .proposer .fenetre{
-    animation: apparitionCarte 0.5s 0.5s ease-out backwards;
+    animation: apparitionCarte 0.25s 0.25s ease-out backwards;
     max-width: 750px;
     margin: 2% auto;
  }
  
 /******************************** plusDetail *************************************/
 .plusDetail .fenetre {
-    animation: apparition 0.5s 0.5s ease-out backwards;
+    animation: apparition 0.25s 0.25s ease-out backwards;
     font-family: 'lato';
     display: flex;
     flex-direction: column;
@@ -1308,7 +1308,7 @@ display: flex;
 }
 
 .plusDetail .carte{
-    animation: apparitionDroite 0.5s 1.3s ease-out backwards;
+    animation: apparitionDroite 0.25s 0.65s ease-out backwards;
     width: 50em;
     height: 33em;
     margin-right: 2em;
@@ -1316,13 +1316,13 @@ display: flex;
 }
 
 .plusDetail .localisation{
-    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.65s ease-out backwards;
     display: flex;
     flex-direction: column;
 }
 
 .plusProposition{
-    animation: apparitionGauche 0.5s 1.3s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.65s ease-out backwards;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1358,13 +1358,13 @@ display: flex;
 }
 
 .confirmationInscription .fenetre{
-    animation: apparition 0.5s 0.5s ease-out backwards;
+    animation: apparition 0.25s 0.25s ease-out backwards;
     max-width: 50em;
     margin: 2% auto;
 }
 
 .confirmationInscription p{
-    animation: apparition 0.5s 1.3s ease-out backwards;
+    animation: apparition 0.25s 0.65s ease-out backwards;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     text-align: justify;
@@ -1378,7 +1378,7 @@ display: flex;
 }
 
 .inscription fieldset{
-    animation: apparitionBas 0.5s 1.3s ease-out backwards;
+    animation: apparitionBas 0.25s 0.65s ease-out backwards;
     border:none;
 }
 
@@ -1402,7 +1402,7 @@ display: flex;
 }
 
 .inscription .fenetre {
-    animation: apparitionGauche 0.5s 0.5s ease-out backwards;
+    animation: apparitionGauche 0.25s 0.25s ease-out backwards;
     max-width: 550px;
     margin:0 auto 2%; 
     display: flex;
@@ -1444,11 +1444,11 @@ display: flex;
 }
 
 .nousContacter div{
-    animation: apparitionHaut 0.5s 0.5s ease-out backwards;
+    animation: apparitionHaut 0.25s 0.25s ease-out backwards;
 }
 
 .nousContacter .contact{
-    animation: apparitionCarte 0.5s 1.3s ease-out backwards;
+    animation: apparitionCarte 0.25s 0.65s ease-out backwards;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1471,7 +1471,7 @@ display: flex;
 }
 
 .nousContacter .fenetreD{
-    animation: apparitionHaut 0.5s 1.3s ease-out backwards;
+    animation: apparitionHaut 0.25s 0.65s ease-out backwards;
 }
 
 .nousContacter .fenetreD .reseaux {
