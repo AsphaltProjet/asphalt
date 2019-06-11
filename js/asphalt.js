@@ -11,7 +11,8 @@ function initialiser(evt){
         dayNames: ["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"],
        dayNamesMin:["Di", "Lu", "Ma", "Me", "Je", "Ve", "Sa"],
         dateFormat:"dd-mm-yy",
-        firstDay: 1
+        firstDay: 1,
+       changeYear: true
     });
   
   let nbCom=$("#lesCommentaires div").length;
