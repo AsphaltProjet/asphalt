@@ -30,14 +30,32 @@
             <h1>ASPHALT</h1>
         </a>
     </div>
-    <nav>
-        <ul>
+        <ul class="navPC">
             <li><a href="rechercheTrajet.html">Rechercher</a></li>
-            <li class="pageActuel"><a href="proposerTrajet.html">Proposer</a></li>
+            <li><a href="proposerTrajet.html">Proposer</a></li>
             <li><a href="inscription.html">Inscription</a></li>
             <li><a href="connexion.html">Connexion</a></li>
         </ul>
+
+<input id="burger" type="checkbox" />
+
+<label for="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+
+<nav>    
+  <ul>
+    <li><a href="rechercheTrajet.html">Rechercher</a></li>
+    <li><a href="proposerTrajet.html">Proposer</a></li>
+    <li><a href="inscription.html">Inscription</a></li>
+    <li><a href="connexion.html">Connexion</a></li>
+    <li><a href="aPropos.html">À propos</a></li>
+    <li><a href="nousContacter.html">Nous contacter</a></li>
+    <li><a href="CGU.html">CGU- confidentialité</a></li>
+  </ul>  
     </nav>
-</header>
+    </header>
     
    
