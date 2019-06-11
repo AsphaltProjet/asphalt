@@ -12,7 +12,8 @@ function initialiser(evt){
        dayNamesMin:["Di", "Lu", "Ma", "Me", "Je", "Ve", "Sa"],
         dateFormat:"dd-mm-yy",
         firstDay: 1,
-       changeYear: true
+       changeYear: true,
+       yearRange:"-100:+0"
     });
   
   let nbCom=$("#lesCommentaires div").length;
