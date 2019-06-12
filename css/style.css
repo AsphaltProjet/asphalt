@@ -517,7 +517,6 @@ footer i {
 
 
 /*********************************************************ACCUEIL**************************************/
-
 /*Bulle de la page d'accueil*/
 .bulleAccueil{
     animation: apparitionGauche 0.5s 1s ease-out backwards;
@@ -528,10 +527,10 @@ footer i {
     font-size: 15px;  
     padding: 20px 20px 20px 20px;
     border-radius: 30px;
-    position: fixed;
+    position: absolute;
     box-shadow: 4px 4px rgb(255,204,51);
-    left: 20%;
-    top: 40em;
+    left: 15%;
+    margin-top: 2.5em;
 }
 
 .bulleAccueil p:first-child{
@@ -603,8 +602,72 @@ footer i {
     background-repeat: no-repeat;
     margin: 3em auto;
     z-index: 1;
+    margin-top: 13em;
 }
 
+.cestQuoi{
+    margin-top: 23em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.cestQuoi .fenetre{
+    max-width: 70em;
+    height: 30em;
+    margin: 2% auto;
+}
+
+.contenu{    
+    display: flex;
+    flex-direction: row;
+}
+
+.cestQuoi .imageCarre{
+    background-color: aliceblue;
+    margin-top:20px;
+    margin-left:5px;
+    margin-right:30px;
+    height: 28em;
+    width: 600%;
+}
+
+.valeurs .fenetre{
+    display: flex;
+    flex-direction: row;
+    max-width: 70em;
+    height: 40em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.valeurs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.valeurs .fenetre div{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    max-width: 12em;
+    height: 40em;
+    margin: 2% auto;
+    margin-top: 3.5em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.valeurs .imageRond{
+    margin-left: 22px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+}
 
 /****************************************************** Connexion *****************************************************/
 
