@@ -371,7 +371,7 @@ header input:checked ~ nav > ul > li {
 .navPC{
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     right: 75px;
     top: 3px ;
     font-size: 1em;
